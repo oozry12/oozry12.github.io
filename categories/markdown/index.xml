@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 小喵喵</title>
+    <link>https://oozry12.github.io/categories/markdown/</link>
+    <description>Recent content in markdown on 小喵喵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 01 Dec 2019 21:57:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://oozry12.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Markdown Syntax</title>
+      <link>https://oozry12.github.io/posts/basic-markdown-syntax.en/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/basic-markdown-syntax.en/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基本语法</title>
+      <link>https://oozry12.github.io/posts/basic-markdown-syntax/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/basic-markdown-syntax/</guid>
+      <description>&lt;p&gt;这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

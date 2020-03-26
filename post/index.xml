@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 小喵喵</title>
+    <link>https://oozry12.github.io/post/</link>
+    <description>Recent content in Posts on 小喵喵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 25 Mar 2020 22:03:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://oozry12.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>主题文档 - 基本概念</title>
+      <link>https://oozry12.github.io/posts/theme-documentation-basics/</link>
+      <pubDate>Fri, 06 Mar 2020 21:40:32 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/theme-documentation-basics/</guid>
+      <description>&lt;p&gt;探索 Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; 主题的全部内容和背后的核心概念.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://oozry12.github.io/post/theme-documentation-basics.en/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/post/theme-documentation-basics.en/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://oozry12.github.io/posts/theme-documentation-basics.en/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/theme-documentation-basics.en/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>主题文档 - 内容</title>
+      <link>https://oozry12.github.io/posts/theme-documentation-content/</link>
+      <pubDate>Thu, 05 Mar 2020 16:30:05 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/theme-documentation-content/</guid>
+      <description>&lt;p&gt;了解如何在 &lt;strong&gt;LoveIt&lt;/strong&gt; 主题中快速, 直观地创建和组织内容.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Content</title>
+      <link>https://oozry12.github.io/posts/theme-documentation-content.en/</link>
+      <pubDate>Thu, 05 Mar 2020 15:58:26 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/theme-documentation-content.en/</guid>
+      <description>&lt;p&gt;Find out how to create and organize your content quickly and intuitively in &lt;strong&gt;LoveIt&lt;/strong&gt; theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic Markdown Syntax</title>
+      <link>https://oozry12.github.io/posts/basic-markdown-syntax.en/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/basic-markdown-syntax.en/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基本语法</title>
+      <link>https://oozry12.github.io/posts/basic-markdown-syntax/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/basic-markdown-syntax/</guid>
+      <description>&lt;p&gt;这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Myy</title>
+      <link>https://oozry12.github.io/post/myy/</link>
+      <pubDate>Wed, 25 Mar 2020 22:03:32 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/post/myy/</guid>
+      <description>仅以此文记录博客折腾过程 方便回滚检查 切换到hugo博客系统+Typora 2020-03-25 主要是要跨平台迁移，只想保留最简单的.md文件，单纯一点写作。用好</description>
+    </item>
+    
+    <item>
+      <title>Myy</title>
+      <link>https://oozry12.github.io/posts/myy/</link>
+      <pubDate>Wed, 25 Mar 2020 22:03:32 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/myy/</guid>
+      <description>仅以此文记录博客折腾过程 方便回滚检查 切换到hugo博客系统+Typora 2020-03-25 主要是要跨平台迁移，只想保留最简单的.md文件，单纯一点写作。用好</description>
+    </item>
+    
+  </channel>
+</rss>

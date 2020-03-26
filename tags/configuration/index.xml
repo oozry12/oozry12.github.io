@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>configuration on 小喵喵</title>
+    <link>https://oozry12.github.io/tags/configuration/</link>
+    <description>Recent content in configuration on 小喵喵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 Mar 2020 21:29:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://oozry12.github.io/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://oozry12.github.io/post/theme-documentation-basics.en/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/post/theme-documentation-basics.en/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://oozry12.github.io/posts/theme-documentation-basics.en/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      
+      <guid>https://oozry12.github.io/posts/theme-documentation-basics.en/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
