@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-hant"><title type="text">哲學誌 — Wah Lau</title><subtitle type="html">哲學之网誌，爱美爱智慧。</subtitle><updated>2024-02-27T02:26:25+00:00</updated><id>/</id><link rel="alternate" type="text/html" href="/"/><link rel="self" type="application/atom+xml" href="/atom.xml"/><author><name>Wah Lau</name><uri>/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><generator uri="https://gohugo.io/" version="0.123.4">Hugo</generator><entry><title type="text">Hugo 内建 highlight 配置踩坑</title><link rel="alternate" type="text/html" href="/notes/hugo-highlight/"/><id>/notes/hugo-highlight/</id><updated>2024-02-27T10:26:05+08:00</updated><published>2024-01-08T22:21:25+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">溯源 Hugo uses Chroma as its code highlighter; it is built in Go and is really, really fast. 既然内建了，秉持极简主义的原则，毕竟够用就好。……</summary><content type="html">&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-hant"><title type="text">哲學誌 — Wah Lau</title><subtitle type="html">哲學之网誌，爱美爱智慧。</subtitle><updated>2024-02-27T06:44:19+00:00</updated><id>/</id><link rel="alternate" type="text/html" href="/"/><link rel="self" type="application/atom+xml" href="/atom.xml"/><author><name>Wah Lau</name><uri>/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><generator uri="https://gohugo.io/" version="0.123.4">Hugo</generator><entry><title type="text">成都游记</title><link rel="alternate" type="text/html" href="/excerpts/chengdu.zh-cn/"/><id>/excerpts/chengdu.zh-cn/</id><updated>2024-02-27T14:44:00+08:00</updated><published>2024-02-03T14:06:12+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">缘起 疫情三年，没出过一次远门。娃终于肯和爷爷奶奶单独呆上一周了，那起飞吧~~~ 日程安……</summary><content type="html">&lt;h2 id="缘起">缘起&lt;/h2>
+&lt;p>疫情三年，没出过一次远门。娃终于肯和爷爷奶奶单独呆上一周了，那起飞吧~~~&lt;/p>
+&lt;h2 id="日程安排">日程安排&lt;/h2>
+&lt;ul>
+&lt;li>D0 D1 晚机落地成都双流机场，一天多悠闲逛逛成都&lt;/li>
+&lt;li>D2 D3 黄龙九寨沟两天一夜，住在九寨沟一晚上&lt;/li>
+&lt;li>D4 23点回到成都，博物馆的一天，早上成博，下午三星堆博物馆&lt;/li>
+&lt;li>D5 峨眉山一天，晚上回到成都&lt;/li>
+&lt;li>D6 吃饱补觉的悠闲 13：30天府机场起飞回深圳&lt;/li>
+&lt;/ul>
+&lt;!-- more -->
+&lt;h2 id="印象最深">印象最深&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>看雪玩冰，漫天白茫茫真爽
+第一次看真雪技能解锁。在大成都市区也能大雪纷飞，本地人也说好久没下这么大雪了。被我一个南方小土豆第一次来就撞上了。
+银装素裹的世界，万物都披上一层或厚或薄的外衣，生命的形态在冰雪中再次蜕变，千姿百态。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>黄龙真的离成都好远。至少7小时的大巴车，还是很多盘山公路，屁股真的坐痛了。海拔真的很高，随便就3000+，本身没高原反应，在地上大力翻滚和大口喝水后，在前往九寨沟的山路车上竟然有点晕。原来流水不腐真的不是骗人的，流水还不冷，气温零下竟然地表水还不结冰。可能有地下水往上冒，带着千年前的熔岩温度。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>九寨沟真的舒服，海拔只有2500左右。能去黄龙绝对能去九寨沟了。三条沟完美刷完，不听导游的，我和老婆动作快一点，刷完全程。虽然最后赶车，打出租车一公里15元（也懒得和司机扯打表那些了）。风景绝美啊，有瀑布六亲不认每时每刻飞泻而下，有冰封整个湖霸气朴实无华，有小树枝结个冰晶迎着阳光闪耀着，有翡冷翠撞着洁白混些蓝天的调色盘，有免费和雪山天天拍照的清澈湖水，有波光粼粼随风摇曳的湖面，有稳如泰山只留灰白背影的高冷高山。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>爬峨眉山真不容易，大雪天已经买了全套观光车+来回索道，只需走一小段，从雷洞坪到金顶的索道之间的上山路，硬是歇了几次才能爬完。不敢相信徒步夜爬从山脚登顶的勇士的毅力。峨眉山是一路把下雪贯彻到底，刚从山脚开始就飘起大雪，整个山完成沉浸在仙气缭绕雪白中。金顶好震撼，佛门圣地。上山猴子都藏起来了，没想到，下山竟然跑出来了，也算尽了一点地主之谊哈哈哈。PS：一定要买冰爪（虽然半山买的20元，也荣膺最有价值的装备），沿路不用买雨衣，根本就是飘雪好吗？被雪砸不幸福吗？还穿啥！&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>专属博物馆的一天太有眼福了，历史盛宴，文化冲击时空碰撞。成都博物馆介绍整个蜀国历史，厚重的底蕴，一首《成都》又唤醒新时代流量密码。成都名不虚传。特别是三星堆，全程基本都在拍拍拍。这人流量爆炸，有研学的有整个团的，简直就是市场一样火爆。这是三四千年前的人能创造出来的吗？简直了，哪怕再过500年，先不说审美水平，光是要复刻这些产品技术难度还是太大。与金字塔古巴比伦又有什么联系呢？人类还是有太多未解之谜，也许这也是进步的动力吧。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="后记">后记&lt;/h2>
+&lt;ul>
+&lt;li>大四川真的不愧是天府之国，盆地、平原、高山、冰川和湖泊啥的应有尽有，还可以刷几次的旅游圣地。下次争取自驾川西，为西藏铺垫铺垫哈。&lt;/li>
+&lt;li>成都小吃可以再挖掘一下，专门找一些巷子地道好吃，不去网红店&lt;/li>
+&lt;li>带娃必去熊猫基地，这次没去留个伏笔啦~&lt;/li>
+&lt;li>黄龙九寨沟和三星堆太多野导游假解说了，到处兜售。观感超级不好。&lt;/li>
+&lt;/ul></content><category scheme="/excerpts/" term="excerpts" label="excerpts"/></entry><entry><title type="text">Hugo 内建 highlight 配置踩坑</title><link rel="alternate" type="text/html" href="/notes/hugo-highlight/"/><id>/notes/hugo-highlight/</id><updated>2024-02-27T10:26:05+08:00</updated><published>2024-01-08T22:21:25+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">溯源 Hugo uses Chroma as its code highlighter; it is built in Go and is really, really fast. 既然内建了，秉持极简主义的原则，毕竟够用就好。……</summary><content type="html">&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -82,7 +119,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://gohugo.io/functions/transform/highlight/">官方1&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/getting-started/configuration-markup/#highlight">官方2&lt;/a>&lt;/li>
-&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="/tags/note/" term="Note" label="Note"/></entry><entry><title type="text">部署自建网站统计服务umami</title><link rel="alternate" type="text/html" href="/notes/deploy-umami/"/><id>/notes/deploy-umami/</id><updated>2024-02-27T10:26:05+08:00</updated><published>2024-01-08T00:00:00+00:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">还是喜欢一波流，docker真香 version: &amp;#39;3&amp;#39; services: umami: image: ghcr.io/umami-software/umami:postgresql-latest ports: - &amp;#34;3000:3000&amp;#34; environment: DATABASE_URL: postgresql://umami:umami@db:5432/umami DATABASE_TYPE: postgresql APP_SECRET: replace-me-with-a-random-string depends_on: db: condition: service_healthy restart: always db: image: postgres:15-alpine environment:……</summary><content type="html">&lt;p>还是喜欢一波流，docker真香&lt;/p>
+&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="/tags/note/" term="Note" label="Note"/></entry><entry><title type="text">部署自建网站统计服务umami</title><link rel="alternate" type="text/html" href="/notes/deploy-umami/"/><id>/notes/deploy-umami/</id><updated>2024-02-27T14:44:00+08:00</updated><published>2024-01-08T00:00:00+00:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">还是喜欢一波流，docker真香 version: &amp;#39;3&amp;#39; services: umami: image: ghcr.io/umami-software/umami:postgresql-latest ports: - &amp;#34;3000:3000&amp;#34; environment: DATABASE_URL: postgresql://umami:umami@db:5432/umami DATABASE_TYPE: postgresql APP_SECRET: replace-me-with-a-random-string depends_on: db: condition: service_healthy restart: always db: image: postgres:15-alpine environment:……</summary><content type="html">&lt;p>还是喜欢一波流，docker真香&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">version&lt;/span>: &lt;span style="color:#b8bb26">&amp;#39;3&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">services&lt;/span>:
@@ -268,13 +305,224 @@
 &lt;li>&lt;a href="https://gist.github.com/bluethon/45766d0a4541ab633e32a49b6c4e4bdd">gist&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/using-a-proxy-server-with-self-hosted-runners">github doc&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://v2ex.com/t/849046">v2ex&lt;/a>&lt;/li>
-&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/github/" term="Github" label="Github"/><category scheme="/tags/proxy/" term="Proxy" label="Proxy"/></entry><entry><title type="text">阿波罗</title><link rel="alternate" type="text/html" href="/aphorism/apollo/"/><id>/aphorism/apollo/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2020-04-30T08:58:45+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个……</summary><content type="html">&lt;p>这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个独自而在的无人之梦。&lt;/p>
+&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/github/" term="Github" label="Github"/><category scheme="/tags/proxy/" term="Proxy" label="Proxy"/></entry><entry><title type="text">利用cf搭建imgur反代 支持评论图片自动上传</title><link rel="alternate" type="text/html" href="/notes/cf-proxy.zh-cn/"/><id>/notes/cf-proxy.zh-cn/</id><updated>2024-02-27T14:44:00+08:00</updated><published>2023-11-28T16:23:13+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">Typecho博客系统中的Sakura主题默认支持图片自动上传，但imgur默认访问……</summary><content type="html">
+&lt;blockquote>
+&lt;p>Typecho博客系统中的Sakura主题默认支持图片自动上传，但imgur默认访问有问题，故此设置一下完美支持imgur&lt;/p>
+&lt;/blockquote>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+原理分析
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;ul>
+&lt;li>利用Cloudflare的worker搭建imgur反代&lt;/li>
+&lt;li>修改主题下相关文件&lt;/li>
+&lt;li>后台进行主题设置 添加反代地址&lt;/li>
+&lt;/ul>
+&lt;div id="outline-container-headline-2" class="outline-3">
+&lt;h3 id="headline-2">
+搭建反代
+&lt;/h3>
+&lt;div id="outline-text-headline-2" class="outline-text-3">
+&lt;ol>
+&lt;li>进入 Cloudflare 的 worker 界面，创建一个新的，删掉默认代码，用以下代码部署&lt;/li>
+&lt;/ol>
+&lt;div class="src src-js">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>addEventListener(&lt;span style="color:#b8bb26">&amp;#34;fetch&amp;#34;&lt;/span>, event =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">let&lt;/span> url &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">new&lt;/span> URL(event.request.url);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> url.protocol &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#39;https:&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">&amp;lt;&lt;/span>mark&lt;span style="color:#fe8019">&amp;gt;&lt;/span>url.hostname &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#34;i.imgur.com&amp;#34;&lt;/span>;&lt;span style="color:#fe8019">&amp;lt;&lt;/span>/mark&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">let&lt;/span> request &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">new&lt;/span> Request(url, event.request);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> event.respondWith(fetch(request));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>})&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;p>
+将得到 &lt;code class="verbatim">https://foo.boo.workers.dev&lt;/code> 的访问域名，到此将实现原本需要 &lt;code class="verbatim">https://i.imgur.com/Ch0lmFc.jpg&lt;/code> 访问的变为只需要 &lt;code class="verbatim">https://foo.boo.workers.dev/Ch0lmFc.jpg&lt;/code> 即可。&lt;/p>
+&lt;ol>
+&lt;li>某些网络环境，workers.dev 域名支持不好，故此要绑定自定义个性化域名 &lt;/li>
+&lt;/ol>
+&lt;p>在 worker 界面中的 Custom Domains，添加自定义域。你的 CF 账号下的任何一个域名都可以设置个二级子域名或三级，到此实现了 利用 &lt;code class="verbatim">https://yourdomain.name/Ch0lmFc.jpg&lt;/code>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-3">
+&lt;h3 id="headline-3">
+修改主题相关文件
+&lt;/h3>
+&lt;div id="outline-text-headline-3" class="outline-text-3">
+&lt;p>
+文件路径 &lt;code class="verbatim">wp-contents/themes/sakura/inc/classes/Images.php&lt;/code> 也可以在 wp 后台直接定位找到
+对于 imgur 上传代码段进行小改动即可，上传逻辑和方法不变，只需要在最后生成的链接替换成我们搭建的反代域名链接
+在这个上传接口代码块里面，找到上传成功后处理的代码，进行修改。&lt;/p>
+&lt;div class="src src-php">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">public&lt;/span> &lt;span style="color:#fe8019">function&lt;/span> &lt;span style="color:#fabd2f">Imgur_API&lt;/span>($image) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $upload_url &lt;span style="color:#fe8019">=&lt;/span> akina_option(&lt;span style="color:#b8bb26">&amp;#39;imgur_upload_image_proxy&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $args &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">array&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;headers&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> &lt;span style="color:#fe8019">array&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;Authorization&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> &lt;span style="color:#b8bb26">&amp;#39;Client-ID &amp;#39;&lt;/span> &lt;span style="color:#fe8019">.&lt;/span> $this&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">imgur_client_id&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;body&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> &lt;span style="color:#fe8019">array&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;image&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> base64_encode($image),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $response &lt;span style="color:#fe8019">=&lt;/span> wp_remote_post($upload_url, $args);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $reply &lt;span style="color:#fe8019">=&lt;/span> json_decode($response[&lt;span style="color:#b8bb26">&amp;#34;body&amp;#34;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">if&lt;/span> ($reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">success&lt;/span> &lt;span style="color:#fe8019">&amp;amp;&amp;amp;&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">status&lt;/span> &lt;span style="color:#fe8019">==&lt;/span> &lt;span style="color:#d3869b">200&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $status &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#d3869b">200&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $success &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $message &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#34;success&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $link &lt;span style="color:#fe8019">=&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">data&lt;/span>&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">link&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $newlink &lt;span style="color:#fe8019">=&lt;/span> parse_url($link,PHP_URL_PATH);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $proxy &lt;span style="color:#fe8019">=&lt;/span> akina_option(&lt;span style="color:#b8bb26">&amp;#39;cmt_image_proxy&amp;#39;&lt;/span>) &lt;span style="color:#fe8019">.&lt;/span> $newlink;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#fe8019">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $status &lt;span style="color:#fe8019">=&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">status&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $success &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">false&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $message &lt;span style="color:#fe8019">=&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">data&lt;/span>&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">error&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $link &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#39;https://view.moezx.cc/images/2019/10/28/default_d_h_large.gif&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $proxy &lt;span style="color:#fe8019">=&lt;/span> akina_option(&lt;span style="color:#b8bb26">&amp;#39;cmt_image_proxy&amp;#39;&lt;/span>) &lt;span style="color:#fe8019">.&lt;/span> $link;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $output &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">array&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;status&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> $status,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;success&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> $success,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;message&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> $message,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;link&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> $link,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b8bb26">&amp;#39;proxy&amp;#39;&lt;/span> &lt;span style="color:#fe8019">=&amp;gt;&lt;/span> $proxy,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">return&lt;/span> $output;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;p>
+利用 php 内置函数 &lt;code class="verbatim">parse_url&lt;/code> 进行处理
+简单复习一下，&lt;a href="https://www.php.net/manual/zh/function.parse-url.php">官方函数说明&lt;/a>&lt;/p>
+&lt;p>
+&lt;code class="verbatim">parse_url(string $url, int $component = -1): int|string|array|null|false&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>
+本函数解析 URL 并返回关联数组，包含在 URL 中出现的各种组成部分。数组的元素值不会 URL 解码。本函数不是用来验证给定 URL 的有效性的，只是将其分解为下面列出的部分。也会接受不完整或无效的 URL，parse\_url() 会尝试尽量正确解析。&lt;/p>
+&lt;/blockquote>
+&lt;p>
+如以下代码&lt;/p>
+&lt;div class="src src-php">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>$url &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#39;http://username:password@hostname:9090/path?arg=value#anchor&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_SCHEME));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_USER));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_PASS));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_HOST));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_PORT));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_PATH));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_QUERY));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>var_dump(parse_url($url, PHP_URL_FRAGMENT));&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;p>
+将输出&lt;/p>
+&lt;div class="src src-text">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>array(8) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;scheme&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(4) &amp;#34;http&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;host&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(8) &amp;#34;hostname&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;port&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> int(9090)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;user&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(8) &amp;#34;username&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;pass&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(8) &amp;#34;password&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;path&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(5) &amp;#34;/path&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;query&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(9) &amp;#34;arg=value&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&amp;#34;fragment&amp;#34;]=&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> string(6) &amp;#34;anchor&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(4) &amp;#34;http&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(8) &amp;#34;username&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(8) &amp;#34;password&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(8) &amp;#34;hostname&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>int(9090)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(5) &amp;#34;/path&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(9) &amp;#34;arg=value&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>string(6) &amp;#34;anchor&amp;#34;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;p>
+复习完拉。
+这里只需要把上传成功的 url 中的 &lt;code class="verbatim">/path&lt;/code> 提取出来，再与自定义反代域名拼接即可
+处理过程：
+&lt;code class="verbatim">$newlink = parse_url($link,PHP_URL_PATH); =
+=$proxy = akina_option(&amp;#39;cmt_image_proxy&amp;#39;) . $newlink;&lt;/code>
+最后结果：&lt;/p>
+&lt;div class="src src-php">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">if&lt;/span> ($reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">success&lt;/span> &lt;span style="color:#fe8019">&amp;amp;&amp;amp;&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">status&lt;/span> &lt;span style="color:#fe8019">==&lt;/span> &lt;span style="color:#d3869b">200&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $status &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#d3869b">200&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $success &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#fe8019">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $message &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">&amp;#34;success&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $link &lt;span style="color:#fe8019">=&lt;/span> $reply&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">data&lt;/span>&lt;span style="color:#fe8019">-&amp;gt;&lt;/span>&lt;span style="color:#b8bb26;font-weight:bold">link&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $newlink &lt;span style="color:#fe8019">=&lt;/span> parse_url($link,PHP_URL_PATH);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $proxy &lt;span style="color:#fe8019">=&lt;/span> akina_option(&lt;span style="color:#b8bb26">&amp;#39;cmt_image_proxy&amp;#39;&lt;/span>) &lt;span style="color:#fe8019">.&lt;/span> $newlink;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;p>
+如图： &lt;/p>
+&lt;p>
+&lt;img src="https://cdn.ooim.xyz/41fce1700d269e43fdd61707d9041bf2.png" alt="https://cdn.ooim.xyz/41fce1700d269e43fdd61707d9041bf2.png" title="https://cdn.ooim.xyz/41fce1700d269e43fdd61707d9041bf2.png" />&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-4" class="outline-3">
+&lt;h3 id="headline-4">
+填入主题设置中的反代地址
+&lt;/h3>
+&lt;div id="outline-text-headline-4" class="outline-text-3">
+&lt;p>
+把自定义反代域名完整 url 填入，刷新即可 &lt;/p>
+&lt;p>
+&lt;img src="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" alt="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" title="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" />&lt;img src="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" alt="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" title="https://cdn.ooim.xyz/9fe7abaf9120fc569ea02ecb7d8d7155.png" />&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-5" class="outline-2">
+&lt;h2 id="headline-5">
+参考链接：
+&lt;/h2>
+&lt;div id="outline-text-headline-5" class="outline-text-2">
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/mashirozx/sakura/blob/b73c45f0221ae196f9feffb626ad927e524a5dba/inc/classes/Images.php">Sakura主题开源具体文件&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/XIU2/CloudflareSpeedTest/issues/168#issuecomment-1028697209">Cloudflare worker反代&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div></content><category scheme="/notes/" term="notes" label="notes"/></entry><entry><title type="text">一加 Ace 2 Pro 折腾记录</title><link rel="alternate" type="text/html" href="/notes/oneplus-modify.zh-cn/"/><id>/notes/oneplus-modify.zh-cn/</id><updated>2024-02-04T11:34:49+08:00</updated><published>2023-11-15T19:14:49+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">从一加 8 Pro 换到一加 Ace 2 Pro ，Android 还是折腾一下才好玩 系统 一定在出厂版本要备份 全……</summary><content type="html">&lt;blockquote>
+&lt;p>从一加 8 Pro 换到一加 Ace 2 Pro ，Android 还是折腾一下才好玩&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="系统">系统&lt;/h2>
+&lt;p>一定在出厂版本要备份 &lt;em>全部分区&lt;/em> ，也就是俗称的字库~~~~
+还有不要用&lt;code>Fastboot Enhance&lt;/code> 这个图形化软件，不清楚分区情况。一刷就寄了。血的教训啊，不然天天跑售后！&lt;/p>
+&lt;p>2024.02.06 去常平售后刷回C13.411版本&lt;/p>
+&lt;p>[x] 遗憾现在很少类原生rom&lt;/p>
+&lt;h3 id="回到出厂包">回到出厂包&lt;/h3>
+&lt;p>用这个 &lt;code>PJA110domestic_11_13.1.1.302CN01_2023072223340105.zip&lt;/code> 用流出来的那个9008软件(windows平台)，回归到最原始包（真正的出厂状态）&lt;/p>
+&lt;h3 id="升级然后解锁bl">升级，然后解锁BL&lt;/h3>
+&lt;p>OTA升级到 &lt;code>color 13.1 552&lt;/code> ，重启到 fastboot 模式，&lt;code>flash oem unlock&lt;/code> 解锁BL&lt;/p>
+&lt;h3 id="root再安装模块">root，再安装模块&lt;/h3>
+&lt;p>一键root，再安装&lt;code>magisk hide&lt;/code>，绕过银行类app&lt;/p>
+&lt;h2 id="照片">照片&lt;/h2>
+&lt;p>经常备份到 NAS（Network Attached Storage 网络附加存储），妈妈再也不用担心刷机&lt;/p>
+&lt;h2 id="git">git&lt;/h2>
+&lt;ul>
+&lt;li>配置好，手机发博客&lt;/li>
+&lt;li>学习Liunx系统&lt;/li>
+&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/phone/" term="Phone" label="Phone"/><category scheme="/tags/oneplus/" term="Oneplus" label="Oneplus"/></entry><entry><title type="text">买入绿联NAS</title><link rel="alternate" type="text/html" href="/notes/nas-setting/"/><id>/notes/nas-setting/</id><updated>2024-02-27T14:44:00+08:00</updated><published>2023-11-15T19:14:07+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">2023年双十一入手绿联DX4600+，果然人到中年真的开始折腾NAS了 希望用好这个……</summary><content type="html">&lt;p>2023年双十一入手绿联DX4600+，果然人到中年真的开始折腾NAS了
+希望用好这个机器，杜绝存储焦虑，过上舒服生活，&lt;del>其实是打工人&lt;/del> 敢于做自己。&lt;/p>
+&lt;h2 id="照片">照片&lt;/h2>
+&lt;h2 id="内网穿透">内网穿透&lt;/h2>
+&lt;p>部署frp可以实现 &lt;a href="/content/blog/deploy-frp-nas/index.md">绿联NAS部署frp 实现内网穿透&lt;/a>&lt;/p>
+&lt;h2 id="私人影院">私人影院&lt;/h2></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/journal/" term="Journal" label="Journal"/><category scheme="/tags/nas/" term="Nas" label="Nas"/></entry><entry><title type="text">阿波罗</title><link rel="alternate" type="text/html" href="/aphorism/apollo/"/><id>/aphorism/apollo/</id><updated>2024-02-27T06:44:17+00:00</updated><published>2020-04-30T08:58:45+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个……</summary><content type="html">&lt;p>这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个独自而在的无人之梦。&lt;/p>
 &lt;p>哦，我轻叹这个充溢着桂月圣白的世界。我不知这是否也是一个梦境，但我无力破坏此缕恒静，我只愿此是恒梦。&lt;/p>
 &lt;p>忘却了生活的烦恼，就连那循环的轮回也消失了，甚至孤独也消散了。此时此刻，我只闻内心定稳的平静和满足。&lt;/p>
 &lt;p>重压之魔渐离了，方向消逝了，我只觉身体浮动在时空。此时此刻，自己幻为一片超然落叶，飘逸在这无声永恒。&lt;/p>
 &lt;p>一个天使将我从漩涡中浮起，一个真理在我眼前蒙蒙浮现。此时此刻，一个自己看到三人静立在纯净的淡蓝天空。&lt;/p>
 &lt;p>疲惫的粒子停止了爱恨，机械的齿轮失去了魔力。宁静蚀来，一丝莱雅的悠扬，整个世界都浸入了这淡淡的迷醉。&lt;/p>
-&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></content><category scheme="/aphorism/" term="aphorism" label="aphorism"/><category scheme="/tags/%E6%97%A5%E7%A5%9E/" term="日神" label="日神"/></entry><entry><title type="text">《动物农场》</title><link rel="alternate" type="text/html" href="/notes/animal-farm/"/><id>/notes/animal-farm/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2020-03-16T19:31:33+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">1 这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这……</summary><content type="html">&lt;p>&lt;sup id="fnref:1">&lt;a href="/notes/animal-farm/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;img src="/images/animal-farm.jpg" alt="animal-farm.jpg">&lt;/p>
+&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></content><category scheme="/aphorism/" term="aphorism" label="aphorism"/><category scheme="/tags/%E6%97%A5%E7%A5%9E/" term="日神" label="日神"/></entry><entry><title type="text">《动物农场》</title><link rel="alternate" type="text/html" href="/notes/animal-farm/"/><id>/notes/animal-farm/</id><updated>2024-02-27T06:44:17+00:00</updated><published>2020-03-16T19:31:33+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">1 这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这……</summary><content type="html">&lt;p>&lt;sup id="fnref:1">&lt;a href="/notes/animal-farm/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;img src="/images/animal-farm.jpg" alt="animal-farm.jpg">&lt;/p>
 &lt;p>这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这部《动物农场》。为什么呢？可能我现在年轻，经历少，思维比较简单，所以这篇没有性描述的童话故事更合我现在的胃口。&lt;/p>
 &lt;p>这个故事不长，如果你尚未阅读，我建议你找个时间一口气读完。这个故事讲的是什么呢？大概就是一群农场内被人剥削的动物革命推翻农场主后却被之中的伟大领袖猪——这个独裁者——继续剥削的故事。这样一个故事，作者的写作动机是批判当时的苏联以及其伟大领袖斯大林，但这个故事的价值却不会随着苏联的解体而消失。&lt;/p>
 &lt;p>社会的阶级是一直存在的，无论是远古还是现代，无论是资本还是共产，这是人类社会的本性。形而上地来说，存在的本质是逆熵。文明，也是如此，故其本性就是不平均——因为平均等于混乱等于非文明等于不存在。政治伦理地来说，若将平等定义为正义，那么平均意义上的平等维护了社会的正义，却同时也违背了个人的正义——个人视角上的平均等于不平等也即不正义。从发展来说，平均意义上的平等会扼杀个人动力，进而导致社会成为一潭死水。因此，尽管不平等程度是评价一个社会好坏的标准，但其绝对不是唯一的标准。这也就是说，无论一个社会的制度╱主义是什么，其根本上都无法解决不平等的问题，其根本上都无法解决极权的问题，其根本上都无法解决独裁者的问题——这是人类社会，也即文明的本性。&lt;sup id="fnref:2">&lt;a href="/notes/animal-farm/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
@@ -292,78 +540,4 @@
 &lt;p>纠正：&lt;a href="https://t.me/yixiuer/993">https://t.me/yixiuer/993&lt;/a>&amp;#160;&lt;a href="/notes/animal-farm/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/" term="反乌托邦" label="反乌托邦"/></entry><entry><title type="text">霍布斯：利维坦</title><link rel="alternate" type="text/html" href="/excerpts/thomas-hobbes-leviathan/"/><id>/excerpts/thomas-hobbes-leviathan/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2019-12-26T14:47:02+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术……</summary><content type="html">&lt;p>「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术所模仿，从而能够制造出人造的动物。由于生命只是肢体的一种运动，它的起源在于内部的某些主要部分，那么我们为什么不能说，一切像钟表一样用发条和齿轮运行的「自动机械结构」也具有人造的生命呢？是否可以说它们的「心脏」无非就是「发条」，「神经」只是一些「游丝」，而「关节」不过是一些齿轮，这些零件如创造者所意图的那样，使整体得到活动的呢？艺术则更高明一些：它还要模仿有理性的「大自然」最精美的艺术品——「人」。因为号称「国民的整体」或「国家」（拉丁语为 Civitas）的这个庞然大物「利维坦」是用艺术造成的，它只是一个「人造的人」；虽然它远比自然人身高力大，而是以保护自然人为其目的；在「利维坦」中，「主权」是使整体得到生命和活动的「人造的灵魂」；官员和其他司法、行政人员是人造的「关节」；用以紧密连接最高主权职位并推动每一关节和成员执行其任务的「赏」和「罚」是「神经」，这同自然人身上的情况一样；一切个别成员的「资产」和「财富」是「实力」；人民的安全是它的「事业」；向它提供必要知识的顾问们是它的「记忆」；「公平」和「法律」是人造的「理智」和「意志」；「和睦」是它的「健康」；「动乱」是它的「疾病」，而「内战」是它的「死亡」。最后，用来把这个政治团体的各部分最初建立、联合和组织起来的「公约」和「盟约」也就是上帝在创世时所宣布的「命令」，那命令就是「我们要造人」。&lt;/p>
-&lt;p>为了论述这个人造人的本质，我们将考虑：&lt;/p>
-&lt;p>第一、它的制造材料和它的创造者；这二者都是人。&lt;/p>
-&lt;p>第二、它是怎样和用什么「盟约」组成的；什么是统治者的「权利」、「正当的权力」或「权威」，以及什么是保存它和瓦解它的原因。&lt;/p>
-&lt;p>关于第一点，有一句近来被滥用的俗话：说是「智慧」不是从「读书」得来的，而是从了解「人」得来的。因此，那些大多数无法显示自己聪明的人就很喜欢背后互相进行恶毒攻击，以显示他们自为已在人们身上了解到的东西。但另有一句近来尚未为人懂得的俗话则是他们正应该照它来真正学会互相了解，如果他们愿意勉为其难的话；而那就是认识你自己。这句话并不像现在所应用的那样意味着支持有权势者对地位卑微的人的野蛮态度；也不意味着鼓励低下阶层的人对地位高于自己的人的那种不逊举动，而是教导我们，由于一个人的思想感情与别人的相似，所以每个人对自己进行反省时，要考虑当他在「思考」、「构思」、「推理」、「希望」和「害怕」等等的时候，他是在做什么和他是根据什么而这样做的；从而他就可以在类似的情况下了解和知道别人的思想感情。我说的感情相似，是指人人都具有的，如「意愿」、「害怕」、「希望」等等；不是指感情对象的相似，即「所意愿」、「所害怕」和「所希望」等的对象的相似：因为个人的素质和各人所受的教育千差万别，所以被以伪装、欺骗、假造和谬论掩盖并混淆得像现在这样难于被人了解的人心的性质，只有探究人心的人才能了解。虽然有时我们也从人们的行动上看出他们的意向，但那么做而没有把它和我们自己的行动作比较，没有区别可能使情况发生变化的环节，那就只会是抓不住要点的猜测，而且在大多数情况下会由于过于相信或过于猜疑而失误；因为从事了解的人本身可以是好人，也可以是坏人。&lt;/p>
-&lt;p>让人们不要完全根据别人的行动来了解别人吧，这种办法只能适用于他们所熟识的人，而那是为数不多的。要统治整个国家的人就必须从自己的内心进行了解而不是去了解这个或那个个别的人，而是要了解全人类。这样做起来虽然有困难，难度胜过学任何语言或学科学；但是当我明晰地系统论述了我自己的了解办法后，留下的另一个困难，只须考虑他自己内心是否还不是那么一回事。因为这类理论是不容许有别的验证的。&lt;sup id="fnref:1">&lt;a href="/excerpts/thomas-hobbes-leviathan/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;p style="text-align:right">&lt;code>付邦　译&lt;/code>&lt;/p>
-&lt;hr>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>霍布斯：《利维坦》（黎思复、黎延弼译，杨昌裕校），商务印书馆，1985 年版，引言。&amp;#160;&lt;a href="/excerpts/thomas-hobbes-leviathan/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></content><category scheme="/excerpts/" term="excerpts" label="excerpts"/><category scheme="/tags/%E5%93%B2%E5%AD%A6/" term="哲学" label="哲学"/></entry><entry><title type="text">集权管理与去中心化</title><link rel="alternate" type="text/html" href="/idea/centralization-and-decentralization/"/><id>/idea/centralization-and-decentralization/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2019-01-24T00:15:59+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土……</summary><content type="html">&lt;p>古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土地上已被灭绝的部落，这一个个悲剧的背后，都有着一个黑影——中心化。&lt;/p>
-&lt;p>中心化的集权管理一直是人类的管理方式，小到家庭，大到国家。尽管官僚与享乐一直是其致命的弊端，它们使得管理变得低效甚至毁灭，但它却一直是人类的管理方式。究其根本，是因为没有了中心化的管理，人类社会只会变成一盘散沙、一潭烂泥，互联网世界中的例子就是暗网、零网等。虽然它们防审查，保护了我们的隐私，但它们上面的内容却大部分是情色、暴力、犯罪等。你真的能忍受一个去中心化、完全自由的世界吗？人类必须要有一个中心化的集权组织管理，人类就是一个被控制欲控制的希腊悲剧。那么，如何从根本上解决这个问题？而不是靠一次又一次的悲剧来清洗弊端的积累？&lt;/p>
-&lt;p>在与现实世界截然不同的互联网世界，似乎有削弱中心化的能力，其动力是来自遥远的文艺复兴的自由平等。互联网的世界，一直有一种去中心化的文化。一方面，互联网的世界应该是一个比现实世界更理想、更美好、更自由、更平等的世界，不应该有中心化的管理；一方面，中心化的互联网易受现实社会中的政府监管，而去中心化则让我们拥有隐私，让我们拥有自由平等；另外，互联网诞生之初就存在一种去中心化的架构（P2P&lt;sup id="fnref:1">&lt;a href="/idea/centralization-and-decentralization/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>），这构成了一种技术基础。正是如此，在互联网世界，似乎总存在着对中心化的现实世界的某种反抗，暗网、零网等对审查的反抗，著名的种子分享下载站海盗湾对版权的反抗，比特币对由国家控制的传统货币的反抗……&lt;/p>
-&lt;p>在互联网时代，会诞生一种新的去中心化的管理架构吗？至少，比特币的巨大影响及其带来的区块链技术让我们看到了可能性。不过，我们先来看看连比特币都要受其影响的一种模式——开源模式。就其特点来说，开源模式一定程度上集成了去中心化，它汇聚人人的力量，齐心创造了一个个奇迹，它最终必将证明：在软件行业，胜利属于开源，而非闭源的大教堂！开源的胜利，似乎也是自由平等的胜利，是文艺复兴的最终胜利，大教堂必将被自由平等推倒！那么，可以借鉴开源来创造一种新的去中心化的管理架构吗？且慢，虽然开源有一些去中心化的特点，但它依旧是一个中心化的架构，它仍需要管理者、领袖，它的内部依然存在众多分歧，甚至成为仇恨。回到比特币，它虽然让整个人类社会为之一震，但只停留在了对正统权威的一种挑战，而非颠覆。去中心化，任重而道远。&lt;/p>
-&lt;p>未来，如何创造一种这样的管理架构，这种架构能将去中心化的优点融入中心化，甚至能通过某种耦合来抵消中心化与去中心化各自的弊端？&lt;sup id="fnref:2">&lt;a href="/idea/centralization-and-decentralization/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;hr>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>更多：&lt;a href="https://en.wikipedia.org/wiki/Peer-to-peer">https://en.wikipedia.org/wiki/Peer-to-peer&lt;/a>&amp;#160;&lt;a href="/idea/centralization-and-decentralization/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>纠正：&lt;a href="https://t.me/yixiuer/934">https://t.me/yixiuer/934&lt;/a>&amp;#160;&lt;a href="/idea/centralization-and-decentralization/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E4%B8%AD%E5%BF%83%E5%8C%96/" term="中心化" label="中心化"/></entry><entry><title type="text">赛博朋克：一种可能的未来</title><link rel="alternate" type="text/html" href="/idea/cyberpunk-a-possibility-of-future/"/><id>/idea/cyberpunk-a-possibility-of-future/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2018-06-22T23:48:18+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">首先，推荐威廉·吉布森的三部曲：《神经漫游者》、《零伯爵》、《重启蒙娜丽莎》。以下是……</summary><content type="html">&lt;p>&lt;img src="/images/blade-runner-2049-1.jpg" alt="blade-runner-2049-1.jpg" title="电影《银翼杀手 2049》">&lt;/p>
-&lt;p>首先，推荐威廉·吉布森的三部曲：《神经漫游者》、《零伯爵》、《重启蒙娜丽莎》。以下是我读完后对赛博朋克及其所描述的未来的理解。&lt;/p>
-&lt;p>赛博朋克很大可能是未来，但什么是赛博朋克？赛博朋克不是重工业、高密度人口、资源稀缺，而是大众感官被解放，大众可以改造自己身体，感官与网络相连，人工智能以及大型企业控制。&lt;/p>
-&lt;p>为什么说赛博朋克很大可能是未来呢？社会上层的生活可能是后来大众的生活，比如汽车，而且目前高度发达的商业化运作只会加快这一过程，比如手机的普及速度与汽车相比。那么，看看现在衣食无忧的社会上层，比如明星，最多见的就是吸毒与纵欲过度，就是为了感官的快感。未来呢，科技发展有很大可能让大众不工作都能衣食无忧，而当科技再将感官解放，想想未来的大众会不会也是如此呢？你可以想想自己周围那些百无聊赖的人，也可以看看《银翼杀手 2049》或 2017 年上映的《攻壳机动队》脑补场景，全息投影而非霓虹灯之下的紫红色糜烂生活。这是第一点：感官解放。尤瓦尔·赫拉利的《未来简史》中也有所提及，以及下一点。&lt;/p>
-&lt;p>第二点：改造身体。整形美容目前已经很普及，但未来的改造可能功能性会更强，也会加入更多的电子机械元素。可能被第一点驱动，也可能被其它驱动（脑补漫威的电影）。另，这点的一些未来特性目前已经可以实现，但还没普及大众。&lt;/p>
-&lt;p>第三点：感官与网络相连。这就有意思了，想想《黑客帝国》的尼奥，当他听墨菲斯说：「你其实活在矩阵（即吉布森笔下的赛博空间）中，而非现实。」尼奥压根无法接受，并肯定墨菲斯是个疯子。可如果现实中，突然有个人对你说这样的话，谁能接受呢？这是个有趣的哲学问题，并且存在诸多烧脑影片中，如：《盗梦空间》。另，这点目前已有一些初创公司，如 Elon Musk 的 Neuralink，试图实现脑机融合以对抗未来可能的人工智能威胁。这点还有一种不完全的实现方式：VR，可以参考电影《头号玩家》。&lt;/p>
-&lt;p>第四点：人工智能。这是一个从图灵时代到现在人类一直在思考的问题，也是众多科幻大片中都共有的，如《黑客帝国》、《我，机器人》、《终结者》、《生化危机》等等。电影中的人工智能都是一个反面角色，试图控制人类社会，甚至消灭人类这种「低端物种」。有意思的是，我发现《生化危机》中的人工智能的第一次亮相场景及对话与吉布森笔下的一个片段简直相同。&lt;/p>
-&lt;p>第五点：大型企业控制。想想现在的大型跨国企业，少数企业比大部分的国家都有钱。你可能会说：钱不等于权力。的确如此，但是目前最有活力的高科技都是在企业的控制之下，为什么有活力？因为商业，因为钱。企业要靠新技术垄断来挣钱，科学家渴望创造新的事物，而这也需要钱。如此，未来世界还会在政府的控制之下吗？有意思的是，很多科幻大片似乎都对此表示否定。另，关于此点，可以了解下威廉·吉布森的生活背景。&lt;/p>
-&lt;p>&lt;img src="/images/blade-runner-2049-2.jpg" alt="blade-runner-2049-2.jpg" title="电影《银翼杀手 2049》">&lt;/p>
-&lt;p>最后，赛博朋克的世界总是光线昏暗的室内或阴雨天，看起来未来好像并不乐观。话题之外的思考：太空。&lt;/p></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E6%9C%AA%E6%9D%A5/" term="未来" label="未来"/></entry><entry><title type="text">Now My Feet Won’t Touch The Ground</title><link rel="alternate" type="text/html" href="/poetry/now-my-feet-wont-touch-the-ground/"/><id>/poetry/now-my-feet-wont-touch-the-ground/</id><updated>2024-02-27T02:26:22+00:00</updated><published>2017-09-09T16:04:20+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">小时候斜望着夜空中的星光 我要到那里去！ 你这样仰头笑着回答家长的问题—— 宝宝， 你长大后……</summary><content type="html">&lt;p>小时候斜望着夜空中的星光&lt;br>
-我要到那里去！&lt;br>
-你这样仰头笑着回答家长的问题——&lt;br>
-宝宝，&lt;br>
-你长大后想干什么呢？&lt;/p>
-&lt;p>学会了阅读&lt;br>
-学会了书写&lt;br>
-于是你低头学习着那些深奥的知识&lt;br>
-我会是你的骄傲！&lt;br>
-你这样对家长许下了承诺&lt;/p>
-&lt;p>学会了说话&lt;br>
-学会了行走&lt;br>
-于是你有了一些朋友&lt;br>
-友谊多么可贵！&lt;br>
-双手紧握&lt;/p>
-&lt;p>你不学习对得起父母吗？&lt;br>
-你不努力对得起朋友吗？&lt;br>
-你不继续对得起那个跨越下面阶梯的自己吗？&lt;br>
-象牙塔开始质问哭泣的你&lt;br>
-于是你的双脚从窗户慢慢回缩&lt;/p>
-&lt;p>&lt;em>Let me go&lt;br>
-Push my boat from the highest cliff to the sea below&lt;br>
-Rocks awaiting&lt;br>
-You wait a lifetime to be found&lt;br>
-Now my feet won’t touch the ground...&lt;/em>&lt;sup id="fnref:1">&lt;a href="/poetry/now-my-feet-wont-touch-the-ground/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>&lt;img src="/images/coldplay-thinking.jpg" alt="coldplay-thinking.jpg" title="Coldplay">&lt;/p>
-&lt;hr>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>小时候侧着头遥指星空，我要去那！然后接受教育，接触社会，进入了自己的象牙塔，从此便在这一个维度上等待死亡，再也看不到那不在一线上的星空了。&amp;#160;&lt;a href="/poetry/now-my-feet-wont-touch-the-ground/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></content><category scheme="/poetry/" term="poetry" label="poetry"/><category scheme="/tags/coldplay/" term="Coldplay" label="Coldplay"/></entry></feed>
+&lt;/div></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/" term="反乌托邦" label="反乌托邦"/></entry></feed>
