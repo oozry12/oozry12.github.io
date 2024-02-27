@@ -1,10 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-hant"><title type="text">哲學誌 — Wah Lau</title><subtitle type="html">哲學之网誌，爱美爱智慧。</subtitle><updated>2024-02-27T00:34:29+00:00</updated><id>/</id><link rel="alternate" type="text/html" href="/"/><link rel="self" type="application/atom+xml" href="/atom.xml"/><author><name>Wah Lau</name><uri>/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><generator uri="https://gohugo.io/" version="0.123.4">Hugo</generator><entry><title type="text">阿波罗</title><link rel="alternate" type="text/html" href="/aphorism/apollo/"/><id>/aphorism/apollo/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2020-04-30T08:58:45+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个……</summary><content type="html">&lt;p>这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个独自而在的无人之梦。&lt;/p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-hant"><title type="text">哲學誌 — Wah Lau</title><subtitle type="html">哲學之网誌，爱美爱智慧。</subtitle><updated>2024-02-27T01:02:26+00:00</updated><id>/</id><link rel="alternate" type="text/html" href="/"/><link rel="self" type="application/atom+xml" href="/atom.xml"/><author><name>Wah Lau</name><uri>/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><generator uri="https://gohugo.io/" version="0.123.4">Hugo</generator><entry><title type="text">Hugo 内建 highlight 配置踩坑</title><link rel="alternate" type="text/html" href="/notes/hugo-highlight/"/><id>/notes/hugo-highlight/</id><updated>2024-02-27T09:02:02+08:00</updated><published>2024-01-08T22:21:25+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">溯源 Hugo uses Chroma as its code highlighter; it is built in Go and is really, really fast. 既然内建了，秉持极简主义的原则，毕竟够用就好。……</summary><content type="html">&lt;h2 id="溯源">溯源&lt;/h2>
+&lt;blockquote>
+&lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
+&lt;/blockquote>
+&lt;p>既然内建了，秉持极简主义的原则，毕竟够用就好。那就Chroma吧&lt;/p>
+&lt;h2 id="清理原来的">清理原来的&lt;/h2>
+&lt;p>原来&lt;code>config.toml&lt;/code> 自带有这段代码，也起着高亮的作用。必须先删掉。&lt;/p>
+&lt;pre>&lt;code class="language-diff">paginate = 6
+- pygmentsCodeFences = true
+- pygmentsCodefencesGuessSyntax = true
+- pygmentsUseClasses = true
+&lt;/code>&lt;/pre>
+&lt;h2 id="新配置">新配置&lt;/h2>
+&lt;p>再加入&lt;/p>
+&lt;pre>&lt;code class="language-toml">[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
+&lt;/code>&lt;/pre>
+&lt;p>最终呈现&lt;/p>
+&lt;pre>&lt;code class="language-diff">baseURL = &amp;quot;https://ooim.xyz&amp;quot;
+languageCode = &amp;quot;zh-cn&amp;quot;
+theme = &amp;quot;jingzhe&amp;quot;
+themesDir = &amp;quot;themes&amp;quot;
+title = &amp;quot;或跃在渊&amp;quot;
+paginate = 6
+enableRobotsTXT = true
+paginate = 6
+- pygmentsCodeFences = true
+- pygmentsCodefencesGuessSyntax = true
+- pygmentsUseClasses = true
+[markup]
++ [markup.highlight]
++ anchorLineNos = false
++ codeFences = true
++ guessSyntax = false
++ hl_Lines = ''
++ hl_inline = false
++ lineAnchors = ''
++ lineNoStart = 1
++ lineNos = false
++ lineNumbersInTable = true
++ noClasses = true
++ noHl = false
++ style = 'monokai'
++ tabWidth = 4
+&lt;/code>&lt;/pre>
+&lt;p>更多的&lt;a href="https://xyproto.github.io/splash/docs/all.html">&lt;code>style&lt;/code>&lt;/a>&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/functions/transform/highlight/">官方1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/getting-started/configuration-markup/#highlight">官方2&lt;/a>&lt;/li>
+&lt;/ul></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/hugo/" term="Hugo" label="Hugo"/><category scheme="/tags/note/" term="Note" label="Note"/></entry><entry><title type="text">阿波罗</title><link rel="alternate" type="text/html" href="/aphorism/apollo/"/><id>/aphorism/apollo/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2020-04-30T08:58:45+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个……</summary><content type="html">&lt;p>这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个独自而在的无人之梦。&lt;/p>
 &lt;p>哦，我轻叹这个充溢着桂月圣白的世界。我不知这是否也是一个梦境，但我无力破坏此缕恒静，我只愿此是恒梦。&lt;/p>
 &lt;p>忘却了生活的烦恼，就连那循环的轮回也消失了，甚至孤独也消散了。此时此刻，我只闻内心定稳的平静和满足。&lt;/p>
 &lt;p>重压之魔渐离了，方向消逝了，我只觉身体浮动在时空。此时此刻，自己幻为一片超然落叶，飘逸在这无声永恒。&lt;/p>
 &lt;p>一个天使将我从漩涡中浮起，一个真理在我眼前蒙蒙浮现。此时此刻，一个自己看到三人静立在纯净的淡蓝天空。&lt;/p>
 &lt;p>疲惫的粒子停止了爱恨，机械的齿轮失去了魔力。宁静蚀来，一丝莱雅的悠扬，整个世界都浸入了这淡淡的迷醉。&lt;/p>
-&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></content><category scheme="/aphorism/" term="aphorism" label="aphorism"/><category scheme="/tags/%E6%97%A5%E7%A5%9E/" term="日神" label="日神"/></entry><entry><title type="text">《动物农场》</title><link rel="alternate" type="text/html" href="/notes/animal-farm/"/><id>/notes/animal-farm/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2020-03-16T19:31:33+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">1 这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这……</summary><content type="html">&lt;p>&lt;sup id="fnref:1">&lt;a href="/notes/animal-farm/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;img src="/images/animal-farm.jpg" alt="animal-farm.jpg">&lt;/p>
+&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></content><category scheme="/aphorism/" term="aphorism" label="aphorism"/><category scheme="/tags/%E6%97%A5%E7%A5%9E/" term="日神" label="日神"/></entry><entry><title type="text">《动物农场》</title><link rel="alternate" type="text/html" href="/notes/animal-farm/"/><id>/notes/animal-farm/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2020-03-16T19:31:33+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">1 这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这……</summary><content type="html">&lt;p>&lt;sup id="fnref:1">&lt;a href="/notes/animal-farm/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;img src="/images/animal-farm.jpg" alt="animal-farm.jpg">&lt;/p>
 &lt;p>这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这部《动物农场》。为什么呢？可能我现在年轻，经历少，思维比较简单，所以这篇没有性描述的童话故事更合我现在的胃口。&lt;/p>
 &lt;p>这个故事不长，如果你尚未阅读，我建议你找个时间一口气读完。这个故事讲的是什么呢？大概就是一群农场内被人剥削的动物革命推翻农场主后却被之中的伟大领袖猪——这个独裁者——继续剥削的故事。这样一个故事，作者的写作动机是批判当时的苏联以及其伟大领袖斯大林，但这个故事的价值却不会随着苏联的解体而消失。&lt;/p>
 &lt;p>社会的阶级是一直存在的，无论是远古还是现代，无论是资本还是共产，这是人类社会的本性。形而上地来说，存在的本质是逆熵。文明，也是如此，故其本性就是不平均——因为平均等于混乱等于非文明等于不存在。政治伦理地来说，若将平等定义为正义，那么平均意义上的平等维护了社会的正义，却同时也违背了个人的正义——个人视角上的平均等于不平等也即不正义。从发展来说，平均意义上的平等会扼杀个人动力，进而导致社会成为一潭死水。因此，尽管不平等程度是评价一个社会好坏的标准，但其绝对不是唯一的标准。这也就是说，无论一个社会的制度╱主义是什么，其根本上都无法解决不平等的问题，其根本上都无法解决极权的问题，其根本上都无法解决独裁者的问题——这是人类社会，也即文明的本性。&lt;sup id="fnref:2">&lt;a href="/notes/animal-farm/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
@@ -22,7 +85,7 @@
 &lt;p>纠正：&lt;a href="https://t.me/yixiuer/993">https://t.me/yixiuer/993&lt;/a>&amp;#160;&lt;a href="/notes/animal-farm/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/" term="反乌托邦" label="反乌托邦"/><category scheme="/tags/%E6%96%87%E6%98%8E/" term="文明" label="文明"/><category scheme="/tags/%E6%94%BF%E6%B2%BB/" term="政治" label="政治"/><category scheme="/tags/%E7%BB%9F%E6%B2%BB/" term="统治" label="统治"/><category scheme="/tags/%E8%87%AA%E7%94%B1/" term="自由" label="自由"/></entry><entry><title type="text">霍布斯：利维坦</title><link rel="alternate" type="text/html" href="/excerpts/thomas-hobbes-leviathan/"/><id>/excerpts/thomas-hobbes-leviathan/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2019-12-26T14:47:02+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术……</summary><content type="html">&lt;p>「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术所模仿，从而能够制造出人造的动物。由于生命只是肢体的一种运动，它的起源在于内部的某些主要部分，那么我们为什么不能说，一切像钟表一样用发条和齿轮运行的「自动机械结构」也具有人造的生命呢？是否可以说它们的「心脏」无非就是「发条」，「神经」只是一些「游丝」，而「关节」不过是一些齿轮，这些零件如创造者所意图的那样，使整体得到活动的呢？艺术则更高明一些：它还要模仿有理性的「大自然」最精美的艺术品——「人」。因为号称「国民的整体」或「国家」（拉丁语为 Civitas）的这个庞然大物「利维坦」是用艺术造成的，它只是一个「人造的人」；虽然它远比自然人身高力大，而是以保护自然人为其目的；在「利维坦」中，「主权」是使整体得到生命和活动的「人造的灵魂」；官员和其他司法、行政人员是人造的「关节」；用以紧密连接最高主权职位并推动每一关节和成员执行其任务的「赏」和「罚」是「神经」，这同自然人身上的情况一样；一切个别成员的「资产」和「财富」是「实力」；人民的安全是它的「事业」；向它提供必要知识的顾问们是它的「记忆」；「公平」和「法律」是人造的「理智」和「意志」；「和睦」是它的「健康」；「动乱」是它的「疾病」，而「内战」是它的「死亡」。最后，用来把这个政治团体的各部分最初建立、联合和组织起来的「公约」和「盟约」也就是上帝在创世时所宣布的「命令」，那命令就是「我们要造人」。&lt;/p>
+&lt;/div></content><category scheme="/notes/" term="notes" label="notes"/><category scheme="/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/" term="反乌托邦" label="反乌托邦"/></entry><entry><title type="text">霍布斯：利维坦</title><link rel="alternate" type="text/html" href="/excerpts/thomas-hobbes-leviathan/"/><id>/excerpts/thomas-hobbes-leviathan/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2019-12-26T14:47:02+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术……</summary><content type="html">&lt;p>「大自然」，也就是上帝用以创造和治理世界的艺术，也像在许多其它事物上一样，被人的艺术所模仿，从而能够制造出人造的动物。由于生命只是肢体的一种运动，它的起源在于内部的某些主要部分，那么我们为什么不能说，一切像钟表一样用发条和齿轮运行的「自动机械结构」也具有人造的生命呢？是否可以说它们的「心脏」无非就是「发条」，「神经」只是一些「游丝」，而「关节」不过是一些齿轮，这些零件如创造者所意图的那样，使整体得到活动的呢？艺术则更高明一些：它还要模仿有理性的「大自然」最精美的艺术品——「人」。因为号称「国民的整体」或「国家」（拉丁语为 Civitas）的这个庞然大物「利维坦」是用艺术造成的，它只是一个「人造的人」；虽然它远比自然人身高力大，而是以保护自然人为其目的；在「利维坦」中，「主权」是使整体得到生命和活动的「人造的灵魂」；官员和其他司法、行政人员是人造的「关节」；用以紧密连接最高主权职位并推动每一关节和成员执行其任务的「赏」和「罚」是「神经」，这同自然人身上的情况一样；一切个别成员的「资产」和「财富」是「实力」；人民的安全是它的「事业」；向它提供必要知识的顾问们是它的「记忆」；「公平」和「法律」是人造的「理智」和「意志」；「和睦」是它的「健康」；「动乱」是它的「疾病」，而「内战」是它的「死亡」。最后，用来把这个政治团体的各部分最初建立、联合和组织起来的「公约」和「盟约」也就是上帝在创世时所宣布的「命令」，那命令就是「我们要造人」。&lt;/p>
 &lt;p>为了论述这个人造人的本质，我们将考虑：&lt;/p>
 &lt;p>第一、它的制造材料和它的创造者；这二者都是人。&lt;/p>
 &lt;p>第二、它是怎样和用什么「盟约」组成的；什么是统治者的「权利」、「正当的权力」或「权威」，以及什么是保存它和瓦解它的原因。&lt;/p>
@@ -37,7 +100,7 @@
 &lt;p>霍布斯：《利维坦》（黎思复、黎延弼译，杨昌裕校），商务印书馆，1985 年版，引言。&amp;#160;&lt;a href="/excerpts/thomas-hobbes-leviathan/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content><category scheme="/excerpts/" term="excerpts" label="excerpts"/><category scheme="/tags/%E5%93%B2%E5%AD%A6/" term="哲学" label="哲学"/><category scheme="/tags/%E5%B7%A5%E5%85%B7/" term="工具" label="工具"/><category scheme="/tags/%E6%96%87%E6%98%8E/" term="文明" label="文明"/></entry><entry><title type="text">集权管理与去中心化</title><link rel="alternate" type="text/html" href="/idea/centralization-and-decentralization/"/><id>/idea/centralization-and-decentralization/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2019-01-24T00:15:59+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土……</summary><content type="html">&lt;p>古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土地上已被灭绝的部落，这一个个悲剧的背后，都有着一个黑影——中心化。&lt;/p>
+&lt;/div></content><category scheme="/excerpts/" term="excerpts" label="excerpts"/><category scheme="/tags/%E5%93%B2%E5%AD%A6/" term="哲学" label="哲学"/></entry><entry><title type="text">集权管理与去中心化</title><link rel="alternate" type="text/html" href="/idea/centralization-and-decentralization/"/><id>/idea/centralization-and-decentralization/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2019-01-24T00:15:59+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土……</summary><content type="html">&lt;p>古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土地上已被灭绝的部落，这一个个悲剧的背后，都有着一个黑影——中心化。&lt;/p>
 &lt;p>中心化的集权管理一直是人类的管理方式，小到家庭，大到国家。尽管官僚与享乐一直是其致命的弊端，它们使得管理变得低效甚至毁灭，但它却一直是人类的管理方式。究其根本，是因为没有了中心化的管理，人类社会只会变成一盘散沙、一潭烂泥，互联网世界中的例子就是暗网、零网等。虽然它们防审查，保护了我们的隐私，但它们上面的内容却大部分是情色、暴力、犯罪等。你真的能忍受一个去中心化、完全自由的世界吗？人类必须要有一个中心化的集权组织管理，人类就是一个被控制欲控制的希腊悲剧。那么，如何从根本上解决这个问题？而不是靠一次又一次的悲剧来清洗弊端的积累？&lt;/p>
 &lt;p>在与现实世界截然不同的互联网世界，似乎有削弱中心化的能力，其动力是来自遥远的文艺复兴的自由平等。互联网的世界，一直有一种去中心化的文化。一方面，互联网的世界应该是一个比现实世界更理想、更美好、更自由、更平等的世界，不应该有中心化的管理；一方面，中心化的互联网易受现实社会中的政府监管，而去中心化则让我们拥有隐私，让我们拥有自由平等；另外，互联网诞生之初就存在一种去中心化的架构（P2P&lt;sup id="fnref:1">&lt;a href="/idea/centralization-and-decentralization/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>），这构成了一种技术基础。正是如此，在互联网世界，似乎总存在着对中心化的现实世界的某种反抗，暗网、零网等对审查的反抗，著名的种子分享下载站海盗湾对版权的反抗，比特币对由国家控制的传统货币的反抗……&lt;/p>
 &lt;p>在互联网时代，会诞生一种新的去中心化的管理架构吗？至少，比特币的巨大影响及其带来的区块链技术让我们看到了可能性。不过，我们先来看看连比特币都要受其影响的一种模式——开源模式。就其特点来说，开源模式一定程度上集成了去中心化，它汇聚人人的力量，齐心创造了一个个奇迹，它最终必将证明：在软件行业，胜利属于开源，而非闭源的大教堂！开源的胜利，似乎也是自由平等的胜利，是文艺复兴的最终胜利，大教堂必将被自由平等推倒！那么，可以借鉴开源来创造一种新的去中心化的管理架构吗？且慢，虽然开源有一些去中心化的特点，但它依旧是一个中心化的架构，它仍需要管理者、领袖，它的内部依然存在众多分歧，甚至成为仇恨。回到比特币，它虽然让整个人类社会为之一震，但只停留在了对正统权威的一种挑战，而非颠覆。去中心化，任重而道远。&lt;/p>
@@ -53,7 +116,7 @@
 &lt;p>纠正：&lt;a href="https://t.me/yixiuer/934">https://t.me/yixiuer/934&lt;/a>&amp;#160;&lt;a href="/idea/centralization-and-decentralization/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E4%B8%AD%E5%BF%83%E5%8C%96/" term="中心化" label="中心化"/><category scheme="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/" term="去中心化" label="去中心化"/><category scheme="/tags/%E7%BB%9F%E6%B2%BB/" term="统治" label="统治"/><category scheme="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/" term="区块链" label="区块链"/><category scheme="/tags/%E5%BC%80%E6%BA%90/" term="开源" label="开源"/><category scheme="/tags/technology/" term="Technology" label="Technology"/><category scheme="/tags/%E8%87%AA%E7%94%B1/" term="自由" label="自由"/><category scheme="/tags/dark-ages/" term="黑暗中世纪" label="黑暗中世纪"/><category scheme="/tags/%E7%BD%91%E7%BB%9C/" term="网络" label="网络"/><category scheme="/tags/questions/" term="Questions" label="Questions"/><category scheme="/tags/%E6%96%87%E6%98%8E/" term="文明" label="文明"/><category scheme="/tags/%E5%93%B2%E5%AD%A6/" term="哲学" label="哲学"/><category scheme="/tags/%E6%9C%AA%E6%9D%A5/" term="未来" label="未来"/><category scheme="/tags/%E6%82%96%E8%AE%BA/" term="悖论" label="悖论"/><category scheme="/tags/%E5%92%8C%E8%B0%90/" term="和谐" label="和谐"/><category scheme="/tags/%E4%BA%AB%E4%B9%90/" term="享乐" label="享乐"/></entry><entry><title type="text">赛博朋克：一种可能的未来</title><link rel="alternate" type="text/html" href="/idea/cyberpunk-a-possibility-of-future/"/><id>/idea/cyberpunk-a-possibility-of-future/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2018-06-22T23:48:18+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">首先，推荐威廉·吉布森的三部曲：《神经漫游者》、《零伯爵》、《重启蒙娜丽莎》。以下是……</summary><content type="html">&lt;p>&lt;img src="/images/blade-runner-2049-1.jpg" alt="blade-runner-2049-1.jpg" title="电影《银翼杀手 2049》">&lt;/p>
+&lt;/div></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E4%B8%AD%E5%BF%83%E5%8C%96/" term="中心化" label="中心化"/></entry><entry><title type="text">赛博朋克：一种可能的未来</title><link rel="alternate" type="text/html" href="/idea/cyberpunk-a-possibility-of-future/"/><id>/idea/cyberpunk-a-possibility-of-future/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2018-06-22T23:48:18+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">首先，推荐威廉·吉布森的三部曲：《神经漫游者》、《零伯爵》、《重启蒙娜丽莎》。以下是……</summary><content type="html">&lt;p>&lt;img src="/images/blade-runner-2049-1.jpg" alt="blade-runner-2049-1.jpg" title="电影《银翼杀手 2049》">&lt;/p>
 &lt;p>首先，推荐威廉·吉布森的三部曲：《神经漫游者》、《零伯爵》、《重启蒙娜丽莎》。以下是我读完后对赛博朋克及其所描述的未来的理解。&lt;/p>
 &lt;p>赛博朋克很大可能是未来，但什么是赛博朋克？赛博朋克不是重工业、高密度人口、资源稀缺，而是大众感官被解放，大众可以改造自己身体，感官与网络相连，人工智能以及大型企业控制。&lt;/p>
 &lt;p>为什么说赛博朋克很大可能是未来呢？社会上层的生活可能是后来大众的生活，比如汽车，而且目前高度发达的商业化运作只会加快这一过程，比如手机的普及速度与汽车相比。那么，看看现在衣食无忧的社会上层，比如明星，最多见的就是吸毒与纵欲过度，就是为了感官的快感。未来呢，科技发展有很大可能让大众不工作都能衣食无忧，而当科技再将感官解放，想想未来的大众会不会也是如此呢？你可以想想自己周围那些百无聊赖的人，也可以看看《银翼杀手 2049》或 2017 年上映的《攻壳机动队》脑补场景，全息投影而非霓虹灯之下的紫红色糜烂生活。这是第一点：感官解放。尤瓦尔·赫拉利的《未来简史》中也有所提及，以及下一点。&lt;/p>
@@ -62,7 +125,7 @@
 &lt;p>第四点：人工智能。这是一个从图灵时代到现在人类一直在思考的问题，也是众多科幻大片中都共有的，如《黑客帝国》、《我，机器人》、《终结者》、《生化危机》等等。电影中的人工智能都是一个反面角色，试图控制人类社会，甚至消灭人类这种「低端物种」。有意思的是，我发现《生化危机》中的人工智能的第一次亮相场景及对话与吉布森笔下的一个片段简直相同。&lt;/p>
 &lt;p>第五点：大型企业控制。想想现在的大型跨国企业，少数企业比大部分的国家都有钱。你可能会说：钱不等于权力。的确如此，但是目前最有活力的高科技都是在企业的控制之下，为什么有活力？因为商业，因为钱。企业要靠新技术垄断来挣钱，科学家渴望创造新的事物，而这也需要钱。如此，未来世界还会在政府的控制之下吗？有意思的是，很多科幻大片似乎都对此表示否定。另，关于此点，可以了解下威廉·吉布森的生活背景。&lt;/p>
 &lt;p>&lt;img src="/images/blade-runner-2049-2.jpg" alt="blade-runner-2049-2.jpg" title="电影《银翼杀手 2049》">&lt;/p>
-&lt;p>最后，赛博朋克的世界总是光线昏暗的室内或阴雨天，看起来未来好像并不乐观。话题之外的思考：太空。&lt;/p></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E6%9C%AA%E6%9D%A5/" term="未来" label="未来"/><category scheme="/tags/%E6%96%87%E6%98%8E/" term="文明" label="文明"/><category scheme="/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/" term="反乌托邦" label="反乌托邦"/><category scheme="/tags/%E6%80%A7/" term="性" label="性"/><category scheme="/tags/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B/" term="赛博朋克" label="赛博朋克"/><category scheme="/tags/%E9%87%91%E9%92%B1/" term="金钱" label="金钱"/><category scheme="/tags/%E6%84%9F%E5%AE%98%E7%9A%84%E5%BF%AB%E6%84%9F/" term="感官的快感" label="感官的快感"/><category scheme="/tags/%E7%A7%91%E5%B9%BB/" term="科幻" label="科幻"/><category scheme="/tags/%E7%BD%91%E7%BB%9C/" term="网络" label="网络"/><category scheme="/tags/%E7%BB%9F%E6%B2%BB/" term="统治" label="统治"/><category scheme="/tags/%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89/" term="资本主义" label="资本主义"/><category scheme="/tags/technology/" term="Technology" label="Technology"/><category scheme="/tags/%E5%A4%AA%E7%A9%BA/" term="太空" label="太空"/><category scheme="/tags/%E6%A2%A6%E6%88%96%E7%8E%B0%E5%AE%9E/" term="梦或现实" label="梦或现实"/><category scheme="/tags/%E4%BA%AB%E4%B9%90/" term="享乐" label="享乐"/></entry><entry><title type="text">Now My Feet Won’t Touch The Ground</title><link rel="alternate" type="text/html" href="/poetry/now-my-feet-wont-touch-the-ground/"/><id>/poetry/now-my-feet-wont-touch-the-ground/</id><updated>2024-02-27T00:34:26+00:00</updated><published>2017-09-09T16:04:20+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">小时候斜望着夜空中的星光 我要到那里去！ 你这样仰头笑着回答家长的问题—— 宝宝， 你长大后……</summary><content type="html">&lt;p>小时候斜望着夜空中的星光&lt;br>
+&lt;p>最后，赛博朋克的世界总是光线昏暗的室内或阴雨天，看起来未来好像并不乐观。话题之外的思考：太空。&lt;/p></content><category scheme="/idea/" term="idea" label="idea"/><category scheme="/tags/%E6%9C%AA%E6%9D%A5/" term="未来" label="未来"/></entry><entry><title type="text">Now My Feet Won’t Touch The Ground</title><link rel="alternate" type="text/html" href="/poetry/now-my-feet-wont-touch-the-ground/"/><id>/poetry/now-my-feet-wont-touch-the-ground/</id><updated>2024-02-27T01:02:23+00:00</updated><published>2017-09-09T16:04:20+08:00</published><author><name>Wah Lau</name><uri>https://www.ooim.xyz/</uri></author><rights>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</rights><summary type="html">小时候斜望着夜空中的星光 我要到那里去！ 你这样仰头笑着回答家长的问题—— 宝宝， 你长大后……</summary><content type="html">&lt;p>小时候斜望着夜空中的星光&lt;br>
 我要到那里去！&lt;br>
 你这样仰头笑着回答家长的问题——&lt;br>
 宝宝，&lt;br>
@@ -96,4 +159,4 @@ Now my feet won’t touch the ground...&lt;/em>&lt;sup id="fnref:1">&lt;a href="
 &lt;p>小时候侧着头遥指星空，我要去那！然后接受教育，接触社会，进入了自己的象牙塔，从此便在这一个维度上等待死亡，再也看不到那不在一线上的星空了。&amp;#160;&lt;a href="/poetry/now-my-feet-wont-touch-the-ground/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content><category scheme="/poetry/" term="poetry" label="poetry"/><category scheme="/tags/coldplay/" term="Coldplay" label="Coldplay"/><category scheme="/tags/music/" term="Music" label="Music"/><category scheme="/tags/%E6%83%B3%E8%B1%A1/" term="想象" label="想象"/><category scheme="/tags/%E8%AF%97/" term="诗" label="诗"/><category scheme="/tags/%E7%9B%AE%E6%A0%87/" term="目标" label="目标"/><category scheme="/tags/%E5%89%8D%E9%A2%9D%E4%B8%80%E5%86%B7/" term="前额一冷" label="前额一冷"/><category scheme="/tags/%E5%AD%A6%E4%B9%A0/" term="学习" label="学习"/><category scheme="/tags/%E9%85%92%E7%A5%9E/" term="酒神" label="酒神"/><category scheme="/tags/%E6%98%9F%E7%A9%BA/" term="星空" label="星空"/><category scheme="/tags/%E9%80%89%E6%8B%A9/" term="选择" label="选择"/><category scheme="/tags/%E6%B5%B7/" term="海" label="海"/><category scheme="/tags/escapist/" term="Escapist" label="Escapist"/></entry></feed>
+&lt;/div></content><category scheme="/poetry/" term="poetry" label="poetry"/><category scheme="/tags/coldplay/" term="Coldplay" label="Coldplay"/></entry></feed>
