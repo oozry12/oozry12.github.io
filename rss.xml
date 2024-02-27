@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.4 https://gohugo.io/</generator><language>zh-hant</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Tue, 27 Feb 2024 02:16:40 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>/notes/hugo-highlight/</link><guid isPermaLink="true">/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.4 https://gohugo.io/</generator><language>zh-hant</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Tue, 27 Feb 2024 02:26:25 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>/notes/hugo-highlight/</link><guid isPermaLink="true">/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -75,14 +75,180 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ lineNumbersInTable = true
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ noClasses = true
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ noHl = false
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ style = &amp;#39;monokai&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ style = &amp;#34;gruvbox&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#282828;background-color:#b8bb26">+ tabWidth = 4
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>更多的&lt;a href="https://xyproto.github.io/splash/docs/all.html">&lt;code>style&lt;/code>&lt;/a>&lt;/p>
 &lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://gohugo.io/functions/transform/highlight/">官方1&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/getting-started/configuration-markup/#highlight">官方2&lt;/a>&lt;/li>
-&lt;/ul></description><category domain="/notes/">notes</category><category domain="/tags/hugo/">Hugo</category><category domain="/tags/note/">Note</category></item><item><title>通过设置代理解决github不能正常连通</title><link>/notes/github-proxy/</link><guid isPermaLink="true">/notes/github-proxy/</guid><pubDate>Wed, 20 Dec 2023 19:53:38 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>突然发现无法使用 &lt;code>git@github.com:user/repo&lt;/code> 推送或拉取代码了，之前明明可以。证明抽风了。解决方法只能上代理，晕啊。&lt;/p>
+&lt;/ul></description><category domain="/notes/">notes</category><category domain="/tags/hugo/">Hugo</category><category domain="/tags/note/">Note</category></item><item><title>部署自建网站统计服务umami</title><link>/notes/deploy-umami/</link><guid isPermaLink="true">/notes/deploy-umami/</guid><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>还是喜欢一波流，docker真香&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">version&lt;/span>: &lt;span style="color:#b8bb26">&amp;#39;3&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">services&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">umami&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">image&lt;/span>: ghcr.io/umami-software/umami:postgresql-latest
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">ports&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#b8bb26">&amp;#34;3000:3000&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">environment&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">DATABASE_URL&lt;/span>: postgresql://umami:umami@db:5432/umami
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">DATABASE_TYPE&lt;/span>: postgresql
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">APP_SECRET&lt;/span>: replace-me-with-a-random-string
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">depends_on&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">db&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">condition&lt;/span>: service_healthy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">restart&lt;/span>: always
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">db&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">image&lt;/span>: postgres:15-alpine
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">environment&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">POSTGRES_DB&lt;/span>: umami
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">POSTGRES_USER&lt;/span>: umami
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">POSTGRES_PASSWORD&lt;/span>: umami
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">volumes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - umami-db-data:/var/lib/postgresql/data
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">restart&lt;/span>: always
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">healthcheck&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">test&lt;/span>: [&lt;span style="color:#b8bb26">&amp;#34;CMD-SHELL&amp;#34;&lt;/span>, &lt;span style="color:#b8bb26">&amp;#34;pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">interval&lt;/span>: 5s
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">timeout&lt;/span>: 5s
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">retries&lt;/span>: &lt;span style="color:#d3869b">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">volumes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">umami-db-data&lt;/span>:
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后续绑定域名，反代端口&lt;code>3000&lt;/code> 就可以舒服享受啦~&lt;/p></description><category domain="/notes/">notes</category><category domain="/tags/random/">Random</category><category domain="/tags/note/">Note</category></item><item><title>绿联NAS部署frp 实现内网穿透</title><link>/notes/deploy-frp-nas/</link><guid isPermaLink="true">/notes/deploy-frp-nas/</guid><pubDate>Thu, 28 Dec 2023 22:23:57 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>&lt;a href="/content/nas-settings.md">买入绿联NAS&lt;/a>后，再解锁docker技能后，玩法丰富了太多。部署在NAS的各种容器，为了能方便外网访问，在这个公网ip紧缺的时代，能实现内网穿透尤为重要。
+而 &lt;a href="https://github.com/fatedier/frp">frp&lt;/a> 则是一个开源的常见解决方案。&lt;/p>
+&lt;blockquote>
+&lt;p>frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，并且具备 P2P 通信功能。使用 frp，您可以安全、便捷地将内网服务暴露到公网，通过拥有公网 IP 的节点进行中转。&lt;/p>
+&lt;/blockquote>
+&lt;!-- more -->
+&lt;h2 id="本质分析">本质分析&lt;/h2>
+&lt;p>通过公网服务器部署的frps，利用frpc把客户端的请求反向代理寻址访问到正确的服务地址，从而实现frps-frpc之间的流量转发。&lt;/p>
+&lt;h2 id="部署服务端">部署服务端&lt;/h2>
+&lt;h3 id="下载frps">下载frps&lt;/h3>
+&lt;p>通过官方&lt;a href="https://github.com/fatedier/frp/releases/">release&lt;/a>下载服务器合适版本，如&lt;code>frp_0.53.2_linux_amd64.tar.gz&lt;/code>，然后解压&lt;/p>
+&lt;h3 id="创建服务端配置文件">创建服务端配置文件&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nano ./frps.toml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>比较简单实用的配置&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># This configuration file is for reference only. Please do not use this configuration directly to run the program as it may have various issues.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># A literal address or host name for IPv6 must be enclosed&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># in square brackets, as in &amp;#34;[::1]:80&amp;#34;, &amp;#34;[ipv6-host]:http&amp;#34; or &amp;#34;[ipv6-host%zone]:80&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># For single &amp;#34;bindAddr&amp;#34; field, no need square brackets, like `bindAddr = &amp;#34;::&amp;#34;`.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bindAddr = &lt;span style="color:#b8bb26">&amp;#34;0.0.0.0&amp;#34;&lt;/span> //服务器ip 默认这个就行
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bindPort = &lt;span style="color:#d3869b">7000&lt;/span> //绑定端口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Heartbeat configure, it&amp;#39;s not recommended to modify the default value&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># The default value of heartbeatTimeout is 90. Set negative value to disable it.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># transport.heartbeatTimeout = 90&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Pool count in each proxy will keep no more than maxPoolCount.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>transport.maxPoolCount = &lt;span style="color:#d3869b">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># transport.tls.force specifies whether to only accept TLS-encrypted connections. By default, the value is false.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tls.force = &lt;span style="color:#fe8019">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vhostHTTPPort = &lt;span style="color:#d3869b">8080&lt;/span> //多个虚拟主机访问端口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Response header timeout(seconds) for vhost http server, default is 60s&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># vhostHTTPTimeout = 60&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Configure the web server to enable the dashboard for frps.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># dashboard is available only if webServer.port is set.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>webServer.addr = &lt;span style="color:#b8bb26">&amp;#34;127.0.0.1&amp;#34;&lt;/span> //web管理url
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>webServer.port = &lt;span style="color:#d3869b">7500&lt;/span> //对应访问端口
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>webServer.user = &lt;span style="color:#b8bb26">&amp;#34;admin&amp;#34;&lt;/span> //管理员用户名
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>webServer.password = &lt;span style="color:#b8bb26">&amp;#34;admin&amp;#34;&lt;/span> //管理员密码
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Enable golang pprof handlers in dashboard listener.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Dashboard port must be set first&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>webServer.pprofEnable = &lt;span style="color:#fe8019">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># enablePrometheus will export prometheus metrics on webServer in /metrics api.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>enablePrometheus = &lt;span style="color:#fe8019">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># console or real logFile path like ./frps.log&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>log.to = &lt;span style="color:#b8bb26">&amp;#34;./frps.log&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># trace, debug, info, warn, error&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>log.level = &lt;span style="color:#b8bb26">&amp;#34;info&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>log.maxDays = &lt;span style="color:#d3869b">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># disable log colors when log.to is console, default is false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>log.disablePrintColor = &lt;span style="color:#fe8019">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># DetailedErrorsToClient defines whether to send the specific error (with debug info) to frpc. By default, this value is true.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>detailedErrorsToClient = &lt;span style="color:#fe8019">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># auth.method specifies what authentication method to use authenticate frpc with frps.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># If &amp;#34;token&amp;#34; is specified - token will be read into login message.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># If &amp;#34;oidc&amp;#34; is specified - OIDC (Open ID Connect) token will be issued using OIDC settings. By default, this value is &amp;#34;token&amp;#34;.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>auth.method = &lt;span style="color:#b8bb26">&amp;#34;token&amp;#34;&lt;/span> //frps-frpc通讯验证方式
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># auth token&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>auth.token = &lt;span style="color:#b8bb26">&amp;#34;12345678&amp;#34;&lt;/span> //一串随机数，但要保证客户端也一样
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Max ports can be used for each client, default value is 0 means no limit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>maxPortsPerClient = &lt;span style="color:#d3869b">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># If subDomainHost is not empty, you can set subdomain when type is http or https in frpc&amp;#39;s configure file&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># When subdomain is est, the host used by routing is test.frps.com&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>subDomainHost = &lt;span style="color:#b8bb26">&amp;#34;frps.com&amp;#34;&lt;/span> //多个虚拟主机(域名)的主域名
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="启动服务端">启动服务端&lt;/h3>
+&lt;p>&lt;code>nohub ./frps -c ./frps.toml &amp;amp;&lt;/code>
+可以用&lt;code>netstat -ntpl&lt;/code> 检查上述绑定的各种端口是否已经建立&lt;/p>
+&lt;h2 id="部署客户端">部署客户端&lt;/h2>
+&lt;h3 id="创建客户端配置文件">创建客户端配置文件&lt;/h3>
+&lt;p>提前把&lt;code>frpc.ini&lt;/code>配置好，保存在NAS某个文件夹中，参考配置如下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ini" data-lang="ini">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">[common]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">server_addr&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">x.x.x.x //公网vps地址&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">server_port&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">7000 //之前服务端绑定的端口&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">token&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">12345678 //与服务端必须一样，不然连不通&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">#log_file = /dev/null&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">#log_level = info&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">#log_max_days = 3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">// 每创建一个proxy就建一个[ ]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">[books]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">type&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">tcp&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_ip&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">192.168.3.226&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_port&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">7070&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">remote_port&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">5115 //tcp这个类别可以指定远程服务端端口&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">[bt]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">type&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">http&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_ip&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">192.168.3.226&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_port&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">8080&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">subdomain&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">mybt&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">[jellyfin]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">type&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">http&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_ip&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">192.168.3.226&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">local_port&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">11301&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">subdomain&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">movie&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="新建容器">新建容器&lt;/h3>
+&lt;p>在绿联的docker中搜索frpc镜像（如&lt;code>stilleshan/frpc:latest&lt;/code>），拉取到本地后新建容器，记得存储空间要把&lt;code>frpc.ini&lt;/code>路径挂载为&lt;code>/frp/frpc.ini&lt;/code>
+最后启动容器。查看日志，看是否连接服务端，通讯是否成功。&lt;/p>
+&lt;h2 id="测试">测试&lt;/h2>
+&lt;p>访问 &lt;code>vpsip:7500&lt;/code> 查看是否相关proxy都是online的，在线才证明成功连接上。&lt;/p>
+&lt;h2 id="enjoy">ENJOY&lt;/h2>
+&lt;p>尽情享受，访问 subdomain.frps.com:8080 即可获取NAS部署在内网的各种服务和容器。&lt;/p>
+&lt;ul>
+&lt;li>vpsip:5115 即是 192.168.3.226:7070 这个服务&lt;/li>
+&lt;li>mybt.frps.com:8080 即是 192.168.3.226:8080 这个服务&lt;/li>
+&lt;li>movie.frps.com:8080 即是 192.168.3.226:11301这个服务&lt;/li>
+&lt;/ul></description><category domain="/notes/">notes</category><category domain="/tags/nas/">Nas</category><category domain="/tags/docker/">Docker</category><category domain="/tags/frp/">Frp</category></item><item><title>通过设置代理解决github不能正常连通</title><link>/notes/github-proxy/</link><guid isPermaLink="true">/notes/github-proxy/</guid><pubDate>Wed, 20 Dec 2023 19:53:38 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>突然发现无法使用 &lt;code>git@github.com:user/repo&lt;/code> 推送或拉取代码了，之前明明可以。证明抽风了。解决方法只能上代理，晕啊。&lt;/p>
 &lt;h2 id="方法一-创建-sshconfig">方法一 创建 &lt;code>~/.ssh/config&lt;/code>&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Host github.com
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> User git
