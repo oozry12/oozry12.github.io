@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.4 https://gohugo.io/</generator><language>zh-hant</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Wed, 28 Feb 2024 13:43:05 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>/notes/hugo-highlight/</link><guid isPermaLink="true">/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.4 https://gohugo.io/</generator><language>zh-hant</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Wed, 28 Feb 2024 13:46:25 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>/notes/hugo-highlight/</link><guid isPermaLink="true">/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -478,7 +478,7 @@
 希望用好这个机器，杜绝存储焦虑，过上舒服生活，&lt;del>其实是打工人&lt;/del> 敢于做自己。&lt;/p>
 &lt;h2 id="照片">照片&lt;/h2>
 &lt;h2 id="内网穿透">内网穿透&lt;/h2>
-&lt;p>部署frp可以实现 &lt;a href="/content/blog/deploy-frp-nas/index.md">绿联NAS部署frp 实现内网穿透&lt;/a>&lt;/p>
+&lt;p>部署frp可以实现 &lt;a href="./deploy-frp-nas/">绿联NAS部署frp 实现内网穿透&lt;/a>&lt;/p>
 &lt;h2 id="私人影院">私人影院&lt;/h2></description><category domain="/notes/">notes</category><category domain="/tags/journal/">Journal</category><category domain="/tags/nas/">Nas</category></item><item><title>阿波罗</title><link>/aphorism/apollo/</link><guid isPermaLink="true">/aphorism/apollo/</guid><pubDate>Thu, 30 Apr 2020 08:58:45 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>这天我在惺忪睡梦中醒来，我看到一个月桂为冠的俊美青年，他静静地漫步而过，仿佛这是一个独自而在的无人之梦。&lt;/p>
 &lt;p>哦，我轻叹这个充溢着桂月圣白的世界。我不知这是否也是一个梦境，但我无力破坏此缕恒静，我只愿此是恒梦。&lt;/p>
 &lt;p>忘却了生活的烦恼，就连那循环的轮回也消失了，甚至孤独也消散了。此时此刻，我只闻内心定稳的平静和满足。&lt;/p>
