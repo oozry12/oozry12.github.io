@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.4 https://gohugo.io/</generator><language>zh-cn</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Wed, 28 Feb 2024 16:08:56 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.6 https://gohugo.io/</generator><language>zh-hant</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Thu, 29 Feb 2024 02:54:08 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -268,7 +268,7 @@
 &lt;li>&lt;a href="https://gist.github.com/bluethon/45766d0a4541ab633e32a49b6c4e4bdd">gist&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/using-a-proxy-server-with-self-hosted-runners">github doc&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://v2ex.com/t/849046">v2ex&lt;/a>&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/github/">Github</category><category domain="https://www.ooim.xyz/tags/proxy/">Proxy</category></item><item><title>利用cf搭建imgur反代 支持评论图片自动上传</title><link>https://www.ooim.xyz/notes/cf-proxy/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/cf-proxy/</guid><pubDate>Tue, 28 Nov 2023 16:23:13 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/github/">Github</category><category domain="https://www.ooim.xyz/tags/proxy/">Proxy</category></item><item><title>利用cf搭建imgur反代 支持评论图片自动上传</title><link>https://www.ooim.xyz/notes/cf-proxy.zh-cn/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/cf-proxy.zh-cn/</guid><pubDate>Tue, 28 Nov 2023 16:23:13 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>
 &lt;blockquote>
 &lt;p>Typecho博客系统中的Sakura主题默认支持图片自动上传，但imgur默认访问有问题，故此设置一下完美支持imgur&lt;/p>
 &lt;/blockquote>
@@ -454,7 +454,7 @@
 &lt;li>&lt;a href="https://github.com/XIU2/CloudflareSpeedTest/issues/168#issuecomment-1028697209">Cloudflare worker反代&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;/div></description><category domain="https://www.ooim.xyz/notes/">notes</category></item><item><title>一加 Ace 2 Pro 折腾记录</title><link>https://www.ooim.xyz/notes/oneplus-modify/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/oneplus-modify/</guid><pubDate>Wed, 15 Nov 2023 19:14:49 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
+&lt;/div></description><category domain="https://www.ooim.xyz/notes/">notes</category></item><item><title>一加 Ace 2 Pro 折腾记录</title><link>https://www.ooim.xyz/notes/oneplus-modify.zh-cn/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/oneplus-modify.zh-cn/</guid><pubDate>Wed, 15 Nov 2023 19:14:49 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
 &lt;p>从一加 8 Pro 换到一加 Ace 2 Pro ，Android 还是折腾一下才好玩&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="系统">系统&lt;/h2>
