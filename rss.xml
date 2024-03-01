@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.6 https://gohugo.io/</generator><language>zh-cn</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 01 Mar 2024 15:26:02 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>哲學誌 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.6 https://gohugo.io/</generator><language>zh-cn</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 01 Mar 2024 15:39:10 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -115,7 +115,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">retries&lt;/span>: &lt;span style="color:#d3869b">5&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">volumes&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">umami-db-data&lt;/span>:
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后续绑定域名，反代端口&lt;code>3000&lt;/code> 就可以舒服享受啦~&lt;/p></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item><item><title>绿联NAS部署frp 实现内网穿透</title><link>https://www.ooim.xyz/notes/deploy-frp-nas/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/deploy-frp-nas/</guid><pubDate>Thu, 28 Dec 2023 22:23:57 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>&lt;a href="https://www.ooim.xyz/content/nas-settings.md">买入绿联NAS&lt;/a>后，再解锁docker技能后，玩法丰富了太多。部署在NAS的各种容器，为了能方便外网访问，在这个公网ip紧缺的时代，能实现内网穿透尤为重要。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后续绑定域名，反代端口&lt;code>3000&lt;/code> 就可以舒服享受啦~&lt;/p></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item><item><title>绿联NAS部署 frp 实现内网穿透</title><link>https://www.ooim.xyz/notes/deploy-frp-nas/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/deploy-frp-nas/</guid><pubDate>Thu, 28 Dec 2023 22:23:57 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>&lt;a href="./nas-settings/">买入绿联NAS&lt;/a>后，再解锁docker技能后，玩法丰富了太多。部署在NAS的各种容器，为了能方便外网访问，在这个公网ip紧缺的时代，能实现内网穿透尤为重要。
 而 &lt;a href="https://github.com/fatedier/frp">frp&lt;/a> 则是一个开源的常见解决方案。&lt;/p>
 &lt;blockquote>
 &lt;p>frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，并且具备 P2P 通信功能。使用 frp，您可以安全、便捷地将内网服务暴露到公网，通过拥有公网 IP 的节点进行中转。&lt;/p>
@@ -205,11 +205,11 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># When subdomain is est, the host used by routing is test.frps.com&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>subDomainHost = &lt;span style="color:#b8bb26">&amp;#34;frps.com&amp;#34;&lt;/span> //多个虚拟主机(域名)的主域名
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="启动服务端">启动服务端&lt;/h3>
-&lt;p>&lt;code>nohub ./frps -c ./frps.toml &amp;amp;&lt;/code>
-可以用&lt;code>netstat -ntpl&lt;/code> 检查上述绑定的各种端口是否已经建立&lt;/p>
+&lt;p>&lt;code>nohub ./frps -c ./frps.toml &amp;amp;&lt;/code>&lt;/p>
+&lt;p>可以用 &lt;code>netstat -ntpl&lt;/code> 检查上述绑定的各种端口是否已经建立&lt;/p>
 &lt;h2 id="部署客户端">部署客户端&lt;/h2>
 &lt;h3 id="创建客户端配置文件">创建客户端配置文件&lt;/h3>
-&lt;p>提前把&lt;code>frpc.ini&lt;/code>配置好，保存在NAS某个文件夹中，参考配置如下：&lt;/p>
+&lt;p>提前把 &lt;code>frpc.ini&lt;/code> 配置好，保存在NAS某个文件夹中，参考配置如下：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ini" data-lang="ini">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">[common]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26;font-weight:bold">server_addr&lt;/span> &lt;span style="color:#fe8019">=&lt;/span> &lt;span style="color:#b8bb26">x.x.x.x //公网vps地址&lt;/span>
