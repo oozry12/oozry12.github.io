@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Sat, 02 Mar 2024 08:59:01 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Sat, 02 Mar 2024 09:19:03 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -115,7 +115,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">retries&lt;/span>: &lt;span style="color:#d3869b">5&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fb4934">volumes&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fb4934">umami-db-data&lt;/span>:
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后续绑定域名，反代端口&lt;code>3000&lt;/code> 就可以舒服享受啦~&lt;/p></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item><item><title>绿联NAS部署 frp 实现内网穿透</title><link>https://www.ooim.xyz/notes/deploy-frp-nas/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/deploy-frp-nas/</guid><pubDate>Thu, 28 Dec 2023 22:23:57 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>买入&lt;a href="../nas-settings/">绿联NAS&lt;/a>后，再解锁docker技能后，玩法丰富了太多。部署在NAS的各种容器，为了能方便外网访问，在这个公网ip紧缺的时代，能实现内网穿透尤为重要。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后续绑定域名，反代端口&lt;code>3000&lt;/code> 就可以舒服享受啦~&lt;/p></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item><item><title>绿联NAS部署 frp 实现内网穿透</title><link>https://www.ooim.xyz/notes/deploy-frp-nas/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/deploy-frp-nas/</guid><pubDate>Thu, 28 Dec 2023 22:23:57 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>买入&lt;a href="../nas-setting/">绿联NAS&lt;/a>后，再解锁docker技能后，玩法丰富了太多。部署在NAS的各种容器，为了能方便外网访问，在这个公网ip紧缺的时代，能实现内网穿透尤为重要。
 而 &lt;a href="https://github.com/fatedier/frp">frp&lt;/a> 则是一个开源的常见解决方案。&lt;/p>
 &lt;blockquote>
 &lt;p>frp 是一款高性能的反向代理应用，专注于内网穿透。它支持多种协议，包括 TCP、UDP、HTTP、HTTPS 等，并且具备 P2P 通信功能。使用 frp，您可以安全、便捷地将内网服务暴露到公网，通过拥有公网 IP 的节点进行中转。&lt;/p>
@@ -248,7 +248,33 @@
 &lt;li>vpsip:5115 即是 192.168.3.226:7070 这个服务&lt;/li>
 &lt;li>mybt.frps.com:8080 即是 192.168.3.226:8080 这个服务&lt;/li>
 &lt;li>movie.frps.com:8080 即是 192.168.3.226:11301这个服务&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/nas/">Nas</category><category domain="https://www.ooim.xyz/tags/docker/">Docker</category><category domain="https://www.ooim.xyz/tags/frp/">Frp</category></item><item><title>通过设置代理解决github不能正常连通</title><link>https://www.ooim.xyz/notes/github-proxy/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/github-proxy/</guid><pubDate>Wed, 20 Dec 2023 19:53:38 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>突然发现无法使用 &lt;code>git@github.com:user/repo&lt;/code> 推送或拉取代码了，之前明明可以。证明抽风了。解决方法只能上代理，晕啊。&lt;/p>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/nas/">Nas</category><category domain="https://www.ooim.xyz/tags/docker/">Docker</category><category domain="https://www.ooim.xyz/tags/frp/">Frp</category></item><item><title>hugo 使用落霞孤鹜文楷字体</title><link>https://www.ooim.xyz/notes/hugo-lxgw-font/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-lxgw-font/</guid><pubDate>Wed, 20 Dec 2023 21:37:48 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>好早之前就已经喜欢这个字体，不太呆板同时又不失灵动。&lt;/p>
+&lt;!-- more -->
+&lt;p>&lt;img src="./wenkai.webp" alt="预览图">&lt;/p>
+&lt;h2 id="前情提要">前情提要&lt;/h2>
+&lt;p>想着在 Hugo 博客里面调用，一开始只找到&lt;a href="https://github.com/lxgw/LxgwWenKai/issues/24">这个issues&lt;/a>讨论，但还是不适合。最后发现这篇&lt;a href="https://tonyxu.io/blog/recommending-lxgw-font/">Tony Xu Blog&lt;/a>，借鉴一下，终于搞定。&lt;/p>
+&lt;blockquote>
+&lt;p>以下方法是基于 &lt;code>meme&lt;/code> 这个主题框架&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="实现方法">实现方法&lt;/h2>
+&lt;ol>
+&lt;li>在站点的&lt;code>~/assets/scss/custom/_custom.scss&lt;/code> 文件中引入css&lt;/li>
+&lt;/ol>
+&lt;p>&lt;code>@import url(&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css&amp;quot;); &lt;/code>&lt;/p>
+&lt;ol start="2">
+&lt;li>在&lt;code>config.yaml&lt;/code>或&lt;code>body&lt;/code>中进行调用&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>fontFamilyBody = &amp;#34;Palatino, &amp;#39;LXGW WenKai Screen&amp;#39;, &amp;#39;Palatino Linotype&amp;#39;, &amp;#39;Microsoft YaHei&amp;#39;, serif&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> font-family: &amp;#34;LXGW WenKai Screen&amp;#34;, sans-serif;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>必要的话里面每个 &lt;code>font-family&lt;/code> 都进行调用&lt;/p>
+&lt;h2 id="参考资料库">参考资料库&lt;/h2>
+&lt;ul>
+&lt;li>落霞孤鹜开源字体&lt;a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cdnjs.com/libraries/lxgw-wenkai-screen-webfont">CDN&lt;/a>&lt;/li>
+&lt;li>感谢 chawyehsu &lt;a href="https://github.com/chawyehsu/lxgw-wenkai-webfont">lxgw-wenkai-webfont&lt;/a>&lt;/li>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/lxgw/">Lxgw</category><category domain="https://www.ooim.xyz/tags/font/">Font</category><category domain="https://www.ooim.xyz/tags/hugo/">Hugo</category></item><item><title>通过设置代理解决github不能正常连通</title><link>https://www.ooim.xyz/notes/github-proxy/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/github-proxy/</guid><pubDate>Wed, 20 Dec 2023 19:53:38 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>突然发现无法使用 &lt;code>git@github.com:user/repo&lt;/code> 推送或拉取代码了，之前明明可以。证明抽风了。解决方法只能上代理，晕啊。&lt;/p>
 &lt;h2 id="方法一-创建-sshconfig">方法一 创建 &lt;code>~/.ssh/config&lt;/code>&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Host github.com
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> User git
@@ -503,20 +529,4 @@
 &lt;p>纠正：&lt;a href="https://t.me/yixiuer/993">https://t.me/yixiuer/993&lt;/a>&amp;#160;&lt;a href="https://www.ooim.xyz/notes/animal-farm/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/">反乌托邦</category></item><item><title>集权管理与去中心化</title><link>https://www.ooim.xyz/idea/centralization-and-decentralization/</link><guid isPermaLink="true">https://www.ooim.xyz/idea/centralization-and-decentralization/</guid><pubDate>Thu, 24 Jan 2019 00:15:59 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>古代中国封建王朝带给近代中国的落后，西方黑暗中世纪带给世人的阴影，更不用说那些美洲土地上已被灭绝的部落，这一个个悲剧的背后，都有着一个黑影——中心化。&lt;/p>
-&lt;p>中心化的集权管理一直是人类的管理方式，小到家庭，大到国家。尽管官僚与享乐一直是其致命的弊端，它们使得管理变得低效甚至毁灭，但它却一直是人类的管理方式。究其根本，是因为没有了中心化的管理，人类社会只会变成一盘散沙、一潭烂泥，互联网世界中的例子就是暗网、零网等。虽然它们防审查，保护了我们的隐私，但它们上面的内容却大部分是情色、暴力、犯罪等。你真的能忍受一个去中心化、完全自由的世界吗？人类必须要有一个中心化的集权组织管理，人类就是一个被控制欲控制的希腊悲剧。那么，如何从根本上解决这个问题？而不是靠一次又一次的悲剧来清洗弊端的积累？&lt;/p>
-&lt;p>在与现实世界截然不同的互联网世界，似乎有削弱中心化的能力，其动力是来自遥远的文艺复兴的自由平等。互联网的世界，一直有一种去中心化的文化。一方面，互联网的世界应该是一个比现实世界更理想、更美好、更自由、更平等的世界，不应该有中心化的管理；一方面，中心化的互联网易受现实社会中的政府监管，而去中心化则让我们拥有隐私，让我们拥有自由平等；另外，互联网诞生之初就存在一种去中心化的架构（P2P&lt;sup id="fnref:1">&lt;a href="https://www.ooim.xyz/idea/centralization-and-decentralization/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>），这构成了一种技术基础。正是如此，在互联网世界，似乎总存在着对中心化的现实世界的某种反抗，暗网、零网等对审查的反抗，著名的种子分享下载站海盗湾对版权的反抗，比特币对由国家控制的传统货币的反抗……&lt;/p>
-&lt;p>在互联网时代，会诞生一种新的去中心化的管理架构吗？至少，比特币的巨大影响及其带来的区块链技术让我们看到了可能性。不过，我们先来看看连比特币都要受其影响的一种模式——开源模式。就其特点来说，开源模式一定程度上集成了去中心化，它汇聚人人的力量，齐心创造了一个个奇迹，它最终必将证明：在软件行业，胜利属于开源，而非闭源的大教堂！开源的胜利，似乎也是自由平等的胜利，是文艺复兴的最终胜利，大教堂必将被自由平等推倒！那么，可以借鉴开源来创造一种新的去中心化的管理架构吗？且慢，虽然开源有一些去中心化的特点，但它依旧是一个中心化的架构，它仍需要管理者、领袖，它的内部依然存在众多分歧，甚至成为仇恨。回到比特币，它虽然让整个人类社会为之一震，但只停留在了对正统权威的一种挑战，而非颠覆。去中心化，任重而道远。&lt;/p>
-&lt;p>未来，如何创造一种这样的管理架构，这种架构能将去中心化的优点融入中心化，甚至能通过某种耦合来抵消中心化与去中心化各自的弊端？&lt;sup id="fnref:2">&lt;a href="https://www.ooim.xyz/idea/centralization-and-decentralization/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;hr>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>更多：&lt;a href="https://en.wikipedia.org/wiki/Peer-to-peer">https://en.wikipedia.org/wiki/Peer-to-peer&lt;/a>&amp;#160;&lt;a href="https://www.ooim.xyz/idea/centralization-and-decentralization/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>纠正：&lt;a href="https://t.me/yixiuer/934">https://t.me/yixiuer/934&lt;/a>&amp;#160;&lt;a href="https://www.ooim.xyz/idea/centralization-and-decentralization/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description><category domain="https://www.ooim.xyz/idea/">idea</category><category domain="https://www.ooim.xyz/tags/%E4%B8%AD%E5%BF%83%E5%8C%96/">中心化</category></item></channel></rss>
+&lt;/div></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/">反乌托邦</category></item></channel></rss>
