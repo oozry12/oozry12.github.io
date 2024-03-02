@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Sat, 02 Mar 2024 09:19:03 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Sat, 02 Mar 2024 09:40:20 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -248,14 +248,20 @@
 &lt;li>vpsip:5115 即是 192.168.3.226:7070 这个服务&lt;/li>
 &lt;li>mybt.frps.com:8080 即是 192.168.3.226:8080 这个服务&lt;/li>
 &lt;li>movie.frps.com:8080 即是 192.168.3.226:11301这个服务&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/nas/">Nas</category><category domain="https://www.ooim.xyz/tags/docker/">Docker</category><category domain="https://www.ooim.xyz/tags/frp/">Frp</category></item><item><title>hugo 使用落霞孤鹜文楷字体</title><link>https://www.ooim.xyz/notes/hugo-lxgw-font/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-lxgw-font/</guid><pubDate>Wed, 20 Dec 2023 21:37:48 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>好早之前就已经喜欢这个字体，不太呆板同时又不失灵动。&lt;/p>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/nas/">Nas</category><category domain="https://www.ooim.xyz/tags/docker/">Docker</category><category domain="https://www.ooim.xyz/tags/frp/">Frp</category></item><item><title>Hugo 使用落霞孤鹜文楷字体</title><link>https://www.ooim.xyz/notes/hugo-lxgw-font/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-lxgw-font/</guid><pubDate>Wed, 20 Dec 2023 21:37:48 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>好早之前就已经喜欢这个字体，不太呆板同时又不失灵动。&lt;/p>
 &lt;!-- more -->
 &lt;p>&lt;img src="./wenkai.webp" alt="预览图">&lt;/p>
 &lt;h2 id="前情提要">前情提要&lt;/h2>
 &lt;p>想着在 Hugo 博客里面调用，一开始只找到&lt;a href="https://github.com/lxgw/LxgwWenKai/issues/24">这个issues&lt;/a>讨论，但还是不适合。最后发现这篇&lt;a href="https://tonyxu.io/blog/recommending-lxgw-font/">Tony Xu Blog&lt;/a>，借鉴一下，终于搞定。&lt;/p>
-&lt;blockquote>
-&lt;p>以下方法是基于 &lt;code>meme&lt;/code> 这个主题框架&lt;/p>
-&lt;/blockquote>
+&lt;div class="card info">
+&lt;div class="header">
+&lt;div class="symbol">&lt;svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'>&lt;title>Information Circle&lt;/title>&lt;path d='M248 64C146.39 64 64 146.39 64 248s82.39 184 184 184 184-82.39 184-184S349.61 64 248 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'/>&lt;path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='32' d='M220 220h32v116'/>&lt;path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M208 340h88'/>&lt;path d='M248 130a26 26 0 1026 26 26 26 0 00-26-26z'/>&lt;/svg>&lt;/div>
+&lt;span>info&lt;/span>
+&lt;/div>
+&lt;div class="content">
+以下方法是基于 `meme` 这个主题框架
+&lt;/div>
+&lt;/div>
 &lt;h2 id="实现方法">实现方法&lt;/h2>
 &lt;ol>
 &lt;li>在站点的&lt;code>~/assets/scss/custom/_custom.scss&lt;/code> 文件中引入css&lt;/li>
@@ -264,8 +270,8 @@
 &lt;ol start="2">
 &lt;li>在&lt;code>config.yaml&lt;/code>或&lt;code>body&lt;/code>中进行调用&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>fontFamilyBody = &amp;#34;Palatino, &amp;#39;LXGW WenKai Screen&amp;#39;, &amp;#39;Palatino Linotype&amp;#39;, &amp;#39;Microsoft YaHei&amp;#39;, serif&amp;#34;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>fontFamilyBody = &amp;#34;&amp;#39;LXGW WenKai Screen&amp;#39;, &amp;#39;Palatino Linotype&amp;#39;, serif&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> font-family: &amp;#34;LXGW WenKai Screen&amp;#34;, sans-serif;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>必要的话里面每个 &lt;code>font-family&lt;/code> 都进行调用&lt;/p>
