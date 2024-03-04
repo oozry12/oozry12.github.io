@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Mon, 04 Mar 2024 03:02:35 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Mon, 04 Mar 2024 03:07:12 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -257,10 +257,11 @@
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="hsl(140, 65%, 65%)">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/>&lt;/svg>&lt;/div>&lt;p>以下方法是基于 &lt;code>meme&lt;/code> 这个主题框架&lt;/p>&lt;/div>
 &lt;h2 id="实现方法">实现方法&lt;/h2>
 &lt;ol>
-&lt;li>在站点的 &lt;code>~/assets/scss/custom/_custom.scss&lt;/code> 文件中引入css&lt;/li>
+&lt;li>在站点的css文件中引入&lt;/li>
 &lt;/ol>
-&lt;p>&lt;code>@import url(&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css&amp;quot;);&lt;/code>&lt;/p>
-&lt;ol start="2">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">//&lt;/span> &lt;span style="color:#fe8019">/&lt;/span>&lt;span style="color:#fb4934">assets&lt;/span>&lt;span style="color:#fe8019">/&lt;/span>&lt;span style="color:#fb4934">scss&lt;/span>&lt;span style="color:#fe8019">/&lt;/span>&lt;span style="color:#fb4934">custom&lt;/span>&lt;span style="color:#fe8019">/&lt;/span>&lt;span style="color:#fb4934">_custom&lt;/span>.scss
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>@&lt;span style="color:#fe8019">import&lt;/span> &lt;span style="color:#fb4934">url&lt;/span>&lt;span style="color:#fe8019">(&lt;/span>&lt;span style="color:#b8bb26">&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css&amp;#34;&lt;/span>&lt;span style="color:#fe8019">)&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
 &lt;li>在&lt;code>config.yaml&lt;/code>或&lt;code>body&lt;/code>中进行调用&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>fontFamilyBody = &amp;#34;&amp;#39;LXGW WenKai Screen&amp;#39;, &amp;#39;Palatino Linotype&amp;#39;, serif&amp;#34;
