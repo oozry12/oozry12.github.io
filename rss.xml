@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Mon, 04 Mar 2024 06:34:35 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.7 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Wed, 06 Mar 2024 09:07:36 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>如何对代码进行注释</title><link>https://www.ooim.xyz/notes/comment-out/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/comment-out/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>不同编程语言有不同的方式进行注释&lt;/p>
+&lt;p>在你的代码中添加注释是一个很好的做法，因为它使你的代码更具有可读性，易于理解。&lt;/p>
+&lt;p>注释不会运行，因为它们会被编译器和解释器忽略。&lt;/p>
+&lt;p>总结起来，基本就是 &lt;code>//&lt;/code> &lt;code>#&lt;/code> &lt;code>/** */&lt;/code> &lt;code>&amp;lt;!----&amp;gt;&lt;/code> ，实在不行，&lt;del>遍历&lt;/del> （逃）&lt;/p>
+&lt;!-- more -->
+&lt;h2 id="vue">vue&lt;/h2>
+&lt;p>一、template 标签中的注释&lt;/p>
+&lt;p>&lt;code>&amp;lt;!-- 注释，单行或多行 --&amp;gt;&lt;/code>&lt;/p>
+&lt;p>二、 style标签中的注释&lt;/p>
+&lt;pre tabindex="0">&lt;code>/*
+多行注释
+*/
+&lt;/code>&lt;/pre>&lt;p>三、script标签中的注释&lt;/p>
+&lt;pre tabindex="0">&lt;code>// 单行注释
+/*
+多行注释
+多行注释
+*/
+&lt;/code>&lt;/pre>&lt;p>四、方法注释规范&lt;/p>
+&lt;p>vue文件中method中的方法注释&lt;/p>
+&lt;pre tabindex="0">&lt;code>/**
+* @description: 方法描述
+* @param {参数类型} 参数名称
+* @param {参数类型} 参数名称
+* @return 没有返回信息写 void / 有返回信息 {返回类型} 描述信息
+*/
+&lt;/code>&lt;/pre>&lt;p>五、文件注释规范
+单个文件注释规范，每个独立的VUE文件开头都要进行注释，表明该文件的描述信息、作者、创建时间等。&lt;/p>
+&lt;pre tabindex="0">&lt;code> &amp;lt;!--
+* @FileDescription: 该文件的描述信息
+* @Author: 作者信息
+* @Date: 文件创建时间
+* @LastEditors: 最后更新作者
+* @LastEditTime: 最后更新时间
+--&amp;gt;
+&lt;/code>&lt;/pre>&lt;h2 id="c-c-java-kotlin-and-rust">C, C++, Java, Kotlin, and Rust&lt;/h2>
+&lt;h3 id="c">C&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">this is a multiline comment or comment block
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// C99 uses the single-line comment
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="cpp">CPP&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">same as C-style comment block
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// single line comment
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="java">Java&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// same as C . . . !&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">all the same
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="kotlin">Kotlin&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"> * might as well include Kotlin!
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="rust">Rust&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// rust comments are like C
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>#&lt;span style="color:#fe8019">!&lt;/span> cargo documentation comments
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="javascript-python-ruby-perl-php-and-bash">JavaScript, Python, Ruby, Perl, PHP, and BASH&lt;/h2>
+&lt;h3 id="javascript">Javascript&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// JS is also like Java, but more dynamic
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">Notice there&amp;#39;s only 1 star on the leading comment symbol?
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">C/C++ and Java use 2 stars
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="python">Python&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Its a pound sign, or hash tag, or octothorpe, or a musical sharp symbol&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">&amp;#34;&amp;#34;&amp;#34;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">a multilin string comment literal thing
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">&amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ruby">Ruby&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ruby" data-lang="ruby">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># hey its another scripting language hash tag comment symbol&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="perl">Perl&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-perl" data-lang="perl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># a language known for its regex capacity and one-liners&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="bash">Bash&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># similar to python&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="php">PHP&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// c style one line comment
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># shell style one line comment
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#928374;font-style:italic">/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">a multi line comment
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="html-and-css">HTML and CSS&lt;/h2>
+&lt;h3 id="html">HTML&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&amp;lt;!-- nobody saw this comming --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="css">CSS&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">here we go again
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-glsl" data-lang="glsl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// we don&amp;#39;t deal with GLSL shader langauges much, but here it is&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-lisp" data-lang="lisp">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#928374;font-style:italic">; comment with a semicolon, MIPS assembly is similar&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="参考资料">参考资料&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.freecodecamp.org/chinese/news/comment-out-html-code-example/">Comment out HTML&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Comment_(computer_programming)">wiki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/zmertens/a5d1cf36cee73c85f1a10488c0f111a6">gist&lt;/a>&lt;/li>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item><item><title>Hugo 内建 highlight 配置踩坑</title><link>https://www.ooim.xyz/notes/hugo-highlight/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/hugo-highlight/</guid><pubDate>Mon, 08 Jan 2024 22:21:25 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;h2 id="溯源">溯源&lt;/h2>
 &lt;blockquote>
 &lt;p>Hugo uses &lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
 &lt;/blockquote>
@@ -511,22 +613,4 @@
 &lt;p>重压之魔渐离了，方向消逝了，我只觉身体浮动在时空。此时此刻，自己幻为一片超然落叶，飘逸在这无声永恒。&lt;/p>
 &lt;p>一个天使将我从漩涡中浮起，一个真理在我眼前蒙蒙浮现。此时此刻，一个自己看到三人静立在纯净的淡蓝天空。&lt;/p>
 &lt;p>疲惫的粒子停止了爱恨，机械的齿轮失去了魔力。宁静蚀来，一丝莱雅的悠扬，整个世界都浸入了这淡淡的迷醉。&lt;/p>
-&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></description><category domain="https://www.ooim.xyz/aphorism/">aphorism</category><category domain="https://www.ooim.xyz/tags/%E6%97%A5%E7%A5%9E/">日神</category></item><item><title>《动物农场》</title><link>https://www.ooim.xyz/notes/animal-farm/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/animal-farm/</guid><pubDate>Mon, 16 Mar 2020 19:31:33 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>&lt;sup id="fnref:1">&lt;a href="https://www.ooim.xyz/notes/animal-farm/#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;img src="https://www.ooim.xyz/images/animal-farm.jpg" alt="animal-farm.jpg">&lt;/p>
-&lt;p>这是一篇乔治·奥威尔名作，可能我们对他的《1984》更为耳熟，但相比而言我更喜欢这部《动物农场》。为什么呢？可能我现在年轻，经历少，思维比较简单，所以这篇没有性描述的童话故事更合我现在的胃口。&lt;/p>
-&lt;p>这个故事不长，如果你尚未阅读，我建议你找个时间一口气读完。这个故事讲的是什么呢？大概就是一群农场内被人剥削的动物革命推翻农场主后却被之中的伟大领袖猪——这个独裁者——继续剥削的故事。这样一个故事，作者的写作动机是批判当时的苏联以及其伟大领袖斯大林，但这个故事的价值却不会随着苏联的解体而消失。&lt;/p>
-&lt;p>社会的阶级是一直存在的，无论是远古还是现代，无论是资本还是共产，这是人类社会的本性。形而上地来说，存在的本质是逆熵。文明，也是如此，故其本性就是不平均——因为平均等于混乱等于非文明等于不存在。政治伦理地来说，若将平等定义为正义，那么平均意义上的平等维护了社会的正义，却同时也违背了个人的正义——个人视角上的平均等于不平等也即不正义。从发展来说，平均意义上的平等会扼杀个人动力，进而导致社会成为一潭死水。因此，尽管不平等程度是评价一个社会好坏的标准，但其绝对不是唯一的标准。这也就是说，无论一个社会的制度╱主义是什么，其根本上都无法解决不平等的问题，其根本上都无法解决极权的问题，其根本上都无法解决独裁者的问题——这是人类社会，也即文明的本性。&lt;sup id="fnref:2">&lt;a href="https://www.ooim.xyz/notes/animal-farm/#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>哲学之所以为哲学，就在于哲学要在循环之外探求一个最终解。所以，我想问题的关键不是如何去推翻，而是如何去更好地管理。如何减少极权和独裁者对社会的危害呢？将权力交给一个绝对正义的第三者——人工智能？我想这更不可能让人接受。构建一个去中心化的社会制度？可惜的是，人类是一个中心化的组织，这无法改变。一个去中心化的组织就如共产主义，其无法避免极权的问题，甚至因为其「理性统一性」而更容易导致极权。我们也可以将共产主义和无法避免的中心化这两个条件作为基础，设想一下实现了这样的社会是个怎样的社会——博格立方体——由控制到终极控制——同化。这样的社会是正义的吗？我想，该社会的「理性统一性」肯定会将这个问题定义为一个完整的句号，而非开放的问号。能够用问号去质疑，这点其实是非常重要的，因为在极权和独裁者眼中，这是绝对禁止的——因为言论自由是极权和独裁者的要害。&lt;/p>
-&lt;p>如果说国家是一个大写的人，那么共产主义就如人的偏激状态，而人在短暂的偏激之后总是会后悔。当然，我并不是说每个人都应该去反对共产主义，因为这种「理性统一性」本身也是一种偏激。人类社会应该要有多样性，人类社会不能臣服于「绝对理性」。我们知道，科学是现代社会的「第一推动」，而科学的兴起是与宗教的衰弱相伴随的，但我们能否说科学已经杀死了宗教呢？我想，答案肯定是否定的，科学只杀死了宗教的不科学部分。宗教其它部分依然存在且影响巨大，即使在现代社会，科学依然要屡屡让步于宗教伦理，因为科学无法解决科学之外的问题，因为将自己化为唯一的权威不是科学的精神，因为并非每个人都信仰科学。社会制度的选择也类似，我们应该秉承一种科学的精神，让每个人都要有选择的权利。&lt;/p>
-&lt;p>我想，科学之中是有唯一的标准的，其正确性可以通过数学的推导来证明，但是社会之中是否也有这样可证明判定的唯一标准呢？不用问我，我也不知道。但我想，如果其存在并践行，那么这样的「理性统一性」的社会是一个好的社会吗？毕竟，无法判定的论点，永远存在的分歧，在一定程度上的确是一个需解决的效率问题。但无论如何，这个问题，未来终究会有个结果的，因为时间总是单向地将我们推向未来。&lt;/p>
-&lt;hr>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>图源：&lt;a href="https://twitter.com/coldplayxtra/status/1237845975521091586">https://twitter.com/coldplayxtra/status/1237845975521091586&lt;/a>&amp;#160;&lt;a href="https://www.ooim.xyz/notes/animal-farm/#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>纠正：&lt;a href="https://t.me/yixiuer/993">https://t.me/yixiuer/993&lt;/a>&amp;#160;&lt;a href="https://www.ooim.xyz/notes/animal-farm/#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/%E5%8F%8D%E4%B9%8C%E6%89%98%E9%82%A6/">反乌托邦</category></item></channel></rss>
+&lt;p>芳香远去，内心燃起一个火苗——我想高声地呼喊，我想紧紧地拥抱，我想深深地热吻——随即被一缕微风治愈。&lt;/p></description><category domain="https://www.ooim.xyz/aphorism/">aphorism</category><category domain="https://www.ooim.xyz/tags/%E6%97%A5%E7%A5%9E/">日神</category></item></channel></rss>
