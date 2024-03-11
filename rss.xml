@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.8 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Mon, 11 Mar 2024 01:49:05 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>如何对代码进行注释</title><link>https://www.ooim.xyz/notes/comment-out/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/comment-out/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>不同编程语言有不同的方式进行注释&lt;/p>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.123.8 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Mon, 11 Mar 2024 02:21:13 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>白鹿原——人性的放大镜</title><link>https://www.ooim.xyz/books/bailuyuan/</link><guid isPermaLink="true">https://www.ooim.xyz/books/bailuyuan/</guid><pubDate>Sun, 10 Mar 2024 23:48:18 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
+&lt;p>《白鹿原》为陈忠实所著小说，于1992年在《当代》杂志开始连载，1993年6月由人民文学出版社出版。描写西安东郊白鹿原上“白鹿村”的白姓和鹿姓人家50年的恩怨纠葛，是一部现实主义色彩的小说，被改编成同名电影、话剧、舞剧、秦腔等多种艺术形式。1997年荣获第四届茅盾文学奖。&lt;/p>
+&lt;p>早就听说过这部大作，但一直没下手开始读，总感觉近现代的作品需要沉淀。少不更事，不想太早接触，怕读不出韵味，反而糟蹋了。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="缘起">缘起&lt;/h2>
+&lt;p>周末刷小文章，看到一篇纪念陈忠实先生的文章。恰好勾起了他的大作的好奇，遂捧书，三日酣畅淋漓，阅毕。久久不能平静。&lt;/p>
+&lt;h2 id="评价">评价&lt;/h2>
+&lt;p>海内外很多了，我只从我的小视角随便说说。&lt;/p>
+&lt;ul>
+&lt;li>很中国的一部现实小说。里面的情节似乎不是虚构夸张，完全就是发生在父辈爷辈的真实故事。&lt;/li>
+&lt;li>很有历史感的巨作。在清末、民国初期、解放后这些重要历史节点下传统封建家族变迁，每个小人物随着时代波涛巨浪浮浮沉沉。&lt;/li>
+&lt;li>剖析人性的大胆之作。里面每个角色有血有肉，里面人性之光，人性之恶都展露无遗。&lt;/li>
+&lt;/ul></description><category domain="https://www.ooim.xyz/books/">books</category><category domain="https://www.ooim.xyz/tags/%E5%86%99%E5%AE%9E/">写实</category><category domain="https://www.ooim.xyz/tags/%E5%B0%8F%E8%AF%B4/">小说</category></item><item><title>如何对代码进行注释</title><link>https://www.ooim.xyz/notes/comment-out/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/comment-out/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>不同编程语言有不同的方式进行注释&lt;/p>
 &lt;p>在你的代码中添加注释是一个很好的做法，因为它使你的代码更具有可读性，易于理解。&lt;/p>
 &lt;p>注释不会运行，因为它们会被编译器和解释器忽略。&lt;/p>
 &lt;p>总结起来，基本就是 &lt;code>//&lt;/code> &lt;code>#&lt;/code> &lt;code>/** */&lt;/code> &lt;code>&amp;lt;!----&amp;gt;&lt;/code> ，实在不行，&lt;del>遍历&lt;/del> （逃）&lt;/p>
@@ -779,9 +791,4 @@
 &lt;ul>
 &lt;li>配置好，手机发博客&lt;/li>
 &lt;li>学习Liunx系统&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/phone/">Phone</category><category domain="https://www.ooim.xyz/tags/oneplus/">Oneplus</category></item><item><title>买入绿联NAS</title><link>https://www.ooim.xyz/notes/nas-setting/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/nas-setting/</guid><pubDate>Wed, 15 Nov 2023 19:14:07 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>2023年双十一入手绿联DX4600+，果然人到中年真的开始折腾NAS了
-希望用好这个机器，杜绝存储焦虑，过上舒服生活，&lt;del>其实是打工人&lt;/del> 敢于做自己。&lt;/p>
-&lt;h2 id="照片">照片&lt;/h2>
-&lt;h2 id="内网穿透">内网穿透&lt;/h2>
-&lt;p>部署frp可以实现 &lt;a href="../deploy-frp-nas/">绿联NAS部署frp 实现内网穿透&lt;/a>&lt;/p>
-&lt;h2 id="私人影院">私人影院&lt;/h2></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/journal/">Journal</category><category domain="https://www.ooim.xyz/tags/nas/">Nas</category></item></channel></rss>
+&lt;/ul></description><category domain="https://www.ooim.xyz/notes/">notes</category><category domain="https://www.ooim.xyz/tags/phone/">Phone</category><category domain="https://www.ooim.xyz/tags/oneplus/">Oneplus</category></item></channel></rss>
