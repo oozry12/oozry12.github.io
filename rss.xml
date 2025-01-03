@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.124.0 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 03 Jan 2025 15:46:55 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>IPTV Docker 镜像 pixman 使用说明</title><link>https://www.ooim.xyz/notes/pixman-docker/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/pixman-docker/</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.124.0 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 03 Jan 2025 16:00:44 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>IPTV Docker 镜像 pixman 使用说明</title><link>https://www.ooim.xyz/notes/pixman-docker/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/pixman-docker/</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
 &lt;p>原文转载自 &lt;a href="https://pixman.io/topics/17">https://pixman.io/topics/17&lt;/a> 再次感谢，超级好用~&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>2025年1月2日更新：&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>由于作者防止项目泛滥加入了鉴权，操作步骤需要更新。&lt;/p>
+&lt;p>2025年1月2日更新：
+由于作者防止项目泛滥加入了鉴权，操作步骤需要更新。&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="追加前置步骤">追加前置步骤&lt;/h3>
-&lt;p>先到[官方站]（https://imgtool.v1.mk/allinone.html） 生成AES密钥，同时把系统生成的AES密钥复制，
-再打开 [作者Telegram鉴权机器人]（https://imgtool.v1.mk/allinone.html） ，粘贴AES密钥，生成Userid和专属Token，最后生成部署命令&lt;/p>
+&lt;p>先到 [官方站]（&lt;a href="https://imgtool.v1.mk/allinone.html%EF%BC%89">https://imgtool.v1.mk/allinone.html）&lt;/a> 生成AES密钥，同时把系统生成的AES密钥复制，
+再打开 [作者Telegram鉴权机器人]（&lt;a href="https://imgtool.v1.mk/allinone.html%EF%BC%89">https://imgtool.v1.mk/allinone.html）&lt;/a> ，粘贴AES密钥，生成Userid和专属Token，最后生成部署命令&lt;/p>
 &lt;h3 id="直接使用命令部署">直接使用命令部署&lt;/h3>
-&lt;p>&lt;code>docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=0gukrgrgrgrgmmwyy3svfetzyyzsul29 -userid=413212355 -token=fd82bedrtrtrtretet98ea116e5ouyyac8f&lt;/code>&lt;/p>
+&lt;p>&lt;code>docker run -d --restart always --privileged=true -p 35455:35455 --name allinone youshandefeiyang/allinone -tv=true -aesKey=0gukrgrgrgrgmmwyy3svfetzyyzsul29 -userid=413212355 -token=fd82bedrtrtrtretet98ea116e5ouyyac8f&lt;/code>
+以上只是实例，并不是真实可以部署的命令&lt;/p>
 &lt;h3 id="更新镜像">更新镜像&lt;/h3>
 &lt;h4 id="停止目前正在运行的容器">停止目前正在运行的容器&lt;/h4>
 &lt;p>&lt;code>docker stop pixman&lt;/code>&lt;/p>
@@ -24,28 +23,28 @@
 &lt;h4 id="运行最新的镜像">运行最新的镜像&lt;/h4>
 &lt;p>&lt;code>docker run -d --name=pixman -p 5000:5000 --restart=always pixman/pixman&lt;/code>&lt;/p>
 &lt;h3 id="支持的直播源">支持的直播源&lt;/h3>
-&lt;p>四季線上 4GTV (http://ip:port/4gtv.m3u)&lt;/p>
-&lt;p>江苏移动魔百盒 TPTV (http://ip:port/tptv.m3u 或 http://ip:port/tptv_proxy.m3u)&lt;/p>
+&lt;p>四季線上 4GTV (&lt;a href="http://ip:port/4gtv.m3u">http://ip:port/4gtv.m3u&lt;/a>)&lt;/p>
+&lt;p>江苏移动魔百盒 TPTV (&lt;a href="http://ip:port/tptv.m3u">http://ip:port/tptv.m3u&lt;/a> 或 &lt;a href="http://ip:port/tptv_proxy.m3u">http://ip:port/tptv_proxy.m3u&lt;/a>)&lt;/p>
 &lt;p>江苏移动 IPTV 频道更新
-央视频直播源 (http://ip:port/ysp.m3u)
+央视频直播源 (&lt;a href="http://ip:port/ysp.m3u">http://ip:port/ysp.m3u&lt;/a>)
 抛砖引玉 央视频直播源已发布
 LITV 直播源 (合并到 4gtv)
 LITV 切片代理源已更新到 Docker image pixman/pixman
-YouTube 直播源 (http://ip:port/youtube/{VIDEO_ID})
+YouTube 直播源 (&lt;a href="http://ip:port/youtube/%7BVIDEO_ID%7D">http://ip:port/youtube/{VIDEO_ID}&lt;/a>)
 pixman 已支持 YouTube 直播源拉取
 YouTube 直播支持通过播放列表生成 M3U
-MytvSuper 直播源 (http://ip:port/mytvsuper.m3u)
+MytvSuper 直播源 (&lt;a href="http://ip:port/mytvsuper.m3u">http://ip:port/mytvsuper.m3u&lt;/a>)
 pixman 已支持 MytvSuper 直播源
-Beesport 直播源 (http://ip:port/beesport.m3u)
+Beesport 直播源 (&lt;a href="http://ip:port/beesport.m3u">http://ip:port/beesport.m3u&lt;/a>)
 pixman 新增一批体育频道
-中国移动 iTV 平台 (http://ip:port/itv.m3u 或 http://ip:port/itv_proxy.m3u)
+中国移动 iTV 平台 (&lt;a href="http://ip:port/itv.m3u">http://ip:port/itv.m3u&lt;/a> 或 &lt;a href="http://ip:port/itv_proxy.m3u">http://ip:port/itv_proxy.m3u&lt;/a>)
 无需 IPV6，三网通看移动 iTV 直播源
 Nginx 代理 TPTV 和 iTV
 四川广电蜀小果
-TheTV (http://ip:port/thetv.m3u)
-Hami Video (http://ip:port/hami.m3u)
+TheTV (&lt;a href="http://ip:port/thetv.m3u">http://ip:port/thetv.m3u&lt;/a>)
+Hami Video (&lt;a href="http://ip:port/hami.m3u">http://ip:port/hami.m3u&lt;/a>)
 pixman 新增 Hamivideo 支持
-DLHD (http://ip:port/dlhd.m3u)&lt;/p></description><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/tech/">Tech</category></item><item><title>The Very Hungry Caterpillar</title><link>https://www.ooim.xyz/life/the-very-hungry-caterpillar/</link><guid isPermaLink="true">https://www.ooim.xyz/life/the-very-hungry-caterpillar/</guid><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
+DLHD (&lt;a href="http://ip:port/dlhd.m3u">http://ip:port/dlhd.m3u&lt;/a>)&lt;/p></description><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/tech/">Tech</category></item><item><title>The Very Hungry Caterpillar</title><link>https://www.ooim.xyz/life/the-very-hungry-caterpillar/</link><guid isPermaLink="true">https://www.ooim.xyz/life/the-very-hungry-caterpillar/</guid><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
 &lt;p>《好饿的毛毛虫》（The Very Hungry Caterpillar）是一本深受孩子们喜爱的绘本，由埃里克·卡尔（Eric Carle）创作。这本书通过一个毛毛虫的故事，教导孩子们关于数字、日子、食物和变化。&lt;/p>
 &lt;/blockquote>
 &lt;p>In the light of the moon, a little egg &lt;strong>lay&lt;/strong> on a leaf.&lt;/p>
