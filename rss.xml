@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.124.0 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 07 Feb 2025 02:53:21 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>IPTV Docker 镜像 pixman 使用说明</title><link>https://www.ooim.xyz/notes/pixman-docker/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/pixman-docker/</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>或跃在渊 — Wah Lau</title><link>https://www.ooim.xyz/</link><description>哲學之网誌，爱美爱智慧。</description><generator>Hugo 0.124.0 https://gohugo.io/</generator><language>zh-CN</language><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><lastBuildDate>Fri, 07 Feb 2025 03:17:20 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://www.ooim.xyz/rss.xml"/><item><title>两个儿子的日常</title><link>https://www.ooim.xyz/life/two-sons-daily/</link><guid isPermaLink="true">https://www.ooim.xyz/life/two-sons-daily/</guid><pubDate>Fri, 07 Feb 2025 09:23:16 +0800</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>自从二宝出生后，两个萌娃就各种可爱奇妙互动，写一下记记。&lt;/p>
+&lt;p>记录两个儿子的日常。&lt;/p>
+&lt;h3 id="求抱抱">求抱抱&lt;/h3>
+&lt;p>哥哥看到爸爸妈妈抱着刚满月的弟弟，就缠着也要抱他。妈妈腰痛，就求着爸爸抱他。
+抱起来瞬间，他自己就偷笑。&lt;/p>
+&lt;h3 id="吃奶嘴">吃奶嘴&lt;/h3>
+&lt;p>哥哥看到桌面上的奶嘴，一把抢过去塞进嘴里。回忆着小时候的感觉，jujuju好开心。
+后面妈妈开玩笑对他说: 你小时候也吃奶嘴的，那个奶嘴妈妈还留着呢，要不要洗了消毒也给你吃。
+他自己也笑了。后面真的消毒好给他吃，看到弟弟吃，他也拿起来吃，还跑到客厅让爷爷奶奶看。&lt;/p></description><category domain="https://www.ooim.xyz/tags/kids/">Kids</category></item><item><title>IPTV Docker 镜像 pixman 使用说明</title><link>https://www.ooim.xyz/notes/pixman-docker/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/pixman-docker/</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;blockquote>
 &lt;p>原文转载自 &lt;a href="https://pixman.io/topics/17">肥羊&lt;/a> 再次感谢，超级好用~&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
@@ -249,106 +257,4 @@ DLHD (&lt;a href="http://ip:port/dlhd.m3u">http://ip:port/dlhd.m3u&lt;/a>)&lt;/p
 &lt;li>不能偏袒任何一方&lt;/li>
 &lt;li>有前置酝酿&lt;/li>
 &lt;li>有小组真正调研&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/manager/">Manager</category></item><item><title>如何对代码进行注释</title><link>https://www.ooim.xyz/notes/comment-out/</link><guid isPermaLink="true">https://www.ooim.xyz/notes/comment-out/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate><copyright>在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。</copyright><description>&lt;p>不同编程语言有不同的方式进行注释&lt;/p>
-&lt;p>在你的代码中添加注释是一个很好的做法，因为它使你的代码更具有可读性，易于理解。&lt;/p>
-&lt;p>注释不会运行，因为它们会被编译器和解释器忽略。&lt;/p>
-&lt;p>总结起来，基本就是 &lt;code>//&lt;/code> &lt;code>#&lt;/code> &lt;code>/** */&lt;/code> &lt;code>&amp;lt;!----&amp;gt;&lt;/code> ，实在不行，&lt;del>遍历&lt;/del> （逃）&lt;/p>
-&lt;!-- more -->
-&lt;h2 id="vue">vue&lt;/h2>
-&lt;p>一、template 标签中的注释&lt;/p>
-&lt;p>&lt;code>&amp;lt;!-- 注释，单行或多行 --&amp;gt;&lt;/code>&lt;/p>
-&lt;p>二、 style标签中的注释&lt;/p>
-&lt;pre tabindex="0">&lt;code>/*
-多行注释
-*/
-&lt;/code>&lt;/pre>&lt;p>三、script标签中的注释&lt;/p>
-&lt;pre tabindex="0">&lt;code>// 单行注释
-/*
-多行注释
-多行注释
-*/
-&lt;/code>&lt;/pre>&lt;p>四、方法注释规范&lt;/p>
-&lt;p>vue文件中method中的方法注释&lt;/p>
-&lt;pre tabindex="0">&lt;code>/**
-* @description: 方法描述
-* @param {参数类型} 参数名称
-* @param {参数类型} 参数名称
-* @return 没有返回信息写 void / 有返回信息 {返回类型} 描述信息
-*/
-&lt;/code>&lt;/pre>&lt;p>五、文件注释规范
-单个文件注释规范，每个独立的VUE文件开头都要进行注释，表明该文件的描述信息、作者、创建时间等。&lt;/p>
-&lt;pre tabindex="0">&lt;code> &amp;lt;!--
-* @FileDescription: 该文件的描述信息
-* @Author: 作者信息
-* @Date: 文件创建时间
-* @LastEditors: 最后更新作者
-* @LastEditTime: 最后更新时间
---&amp;gt;
-&lt;/code>&lt;/pre>&lt;h2 id="c-c-java-kotlin-and-rust">C, C++, Java, Kotlin, and Rust&lt;/h2>
-&lt;h3 id="c">C&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">this is a multiline comment or comment block
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// C99 uses the single-line comment
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="cpp">CPP&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">same as C-style comment block
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// single line comment
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="java">Java&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// same as C . . . !&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">all the same
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="kotlin">Kotlin&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/**
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"> * might as well include Kotlin!
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"> */&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="rust">Rust&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// rust comments are like C
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>#&lt;span style="color:#fe8019">!&lt;/span> cargo documentation comments
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="javascript-python-ruby-perl-php-and-bash">JavaScript, Python, Ruby, Perl, PHP, and BASH&lt;/h2>
-&lt;h3 id="javascript">Javascript&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// JS is also like Java, but more dynamic
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/*
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">Notice there&amp;#39;s only 1 star on the leading comment symbol?
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">C/C++ and Java use 2 stars
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="python">Python&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># Its a pound sign, or hash tag, or octothorpe, or a musical sharp symbol&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">&amp;#34;&amp;#34;&amp;#34;
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">a multilin string comment literal thing
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#b8bb26">&amp;#34;&amp;#34;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ruby">Ruby&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ruby" data-lang="ruby">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># hey its another scripting language hash tag comment symbol&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="perl">Perl&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-perl" data-lang="perl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># a language known for its regex capacity and one-liners&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="bash">Bash&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># similar to python&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="php">PHP&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// c style one line comment
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic"># shell style one line comment
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#928374;font-style:italic">/*
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">a multi line comment
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="html-and-css">HTML and CSS&lt;/h2>
-&lt;h3 id="html">HTML&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&amp;lt;!-- nobody saw this comming --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="css">CSS&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">/*
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">here we go again
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">*/&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-glsl" data-lang="glsl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// we don&amp;#39;t deal with GLSL shader langauges much, but here it is&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-lisp" data-lang="lisp">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#928374;font-style:italic">; comment with a semicolon, MIPS assembly is similar&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="参考资料">参考资料&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.freecodecamp.org/chinese/news/comment-out-html-code-example/">Comment out HTML&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Comment_(computer_programming)">wiki&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gist.github.com/zmertens/a5d1cf36cee73c85f1a10488c0f111a6">gist&lt;/a>&lt;/li>
-&lt;/ul></description><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/note/">Note</category></item></channel></rss>
+&lt;/ul></description><category domain="https://www.ooim.xyz/tags/random/">Random</category><category domain="https://www.ooim.xyz/tags/manager/">Manager</category></item></channel></rss>
